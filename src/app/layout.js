@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/theme.js" strategy="afterInteractive" />
         <a href="#" className="back-to-top">
           <i className="far fa-angle-up"></i>
-        </a>
+        </a> 
         <Footer />
       </body>
     </html >
