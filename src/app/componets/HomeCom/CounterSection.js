@@ -1,0 +1,87 @@
+export default function CounterSection() {
+    return (
+        <section className="counter-area counter-area-v1 pt-240 pb-90">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-6">
+                        <div className="section-title text-center mb-55 wow fadeInUp">
+                            <span className="sub-title st-one">Agency Statistics</span>
+                            <h2>Why People’s Like Us</h2>
+                            <p>Professional Design Agency to provide solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row no-gutters">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div
+                            className="counter-item mb-40 wow fadeInUp"
+                            data-wow-delay=".2s"
+                        >
+                            <div className="icon">
+                                <i className="flaticon-start-up"></i>
+                            </div>
+                            <div className="text">
+                                <h2 className="number">
+                                    <span>256</span>+
+                                </h2>
+                                <p>Project Complate</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div
+                            className="counter-item mb-40 wow fadeInUp"
+                            data-wow-delay=".3s"
+                        >
+                            <div className="icon">
+                                <i className="flaticon-creativity"></i>
+                            </div>
+                            <div className="text">
+                                <h2 className="number">
+                                    <span>783</span>+
+                                </h2>
+                                <p>Project Complate</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div
+                            className="counter-item mb-40 wow fadeInUp"
+                            data-wow-delay=".4s"
+                        >
+                            <div className="icon">
+                                <i className="flaticon-medal"></i>
+                            </div>
+                            <div className="text">
+                                <h2 className="number">
+                                    <span>97</span>+
+                                </h2>
+                                <p>Awards Winning</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div
+                            className="counter-item mb-40 wow fadeInUp"
+                            data-wow-delay=".5s"
+                        >
+                            <div className="icon">
+                                <i className="flaticon-technical-support"></i>
+                            </div>
+                            <div className="text">
+                                <h2 className="number">
+                                    <span>35</span>+
+                                </h2>
+                                <p>Years Of Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
