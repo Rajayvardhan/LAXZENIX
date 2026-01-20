@@ -1,8 +1,9 @@
 import "../app/style/custom.css";
 import "../app/style/res.css";
 import Script from "next/script";
-import Header from "./componets/header";
 import Footer from "./componets/Footer";
+import HeaderNewSection from "./componets/HeaderNew";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Pixlab - Creative Agency</title>
 
-        <link rel="icon" href="/assets/images/favicon.ico" />
+        <link rel="icon" href="/assets/images/logo/lax-fav.png" />
 
         {/* CSS */}
         <link rel="stylesheet" href="/assets/vendor/animate.css" />
@@ -29,7 +30,7 @@ export default function RootLayout({ children }) {
             <div className="pre-box"></div>
           </div>
         </div>
-        <Header />
+        <HeaderNewSection />
         {children}
         {/* ===== JS (ORDER IS CRITICAL) ===== */}
         <Script src="/assets/vendor/jquery-3.6.0.min.js" strategy="beforeInteractive" />

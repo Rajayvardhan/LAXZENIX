@@ -58,6 +58,7 @@
 /* Nice-select css */
 /* @import url("/assets/vendor/nice-select/css/nice-select.css"); */ 
 
+
 /* Root css */
 :root {
   --text-color: #808285;
@@ -5229,3 +5230,110 @@ button {
 /*---==========================
    End Dark Page Css
 =========================---*/
+
+
+
+
+/* headernew css */
+.site-header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 24px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo a {
+  font-size: 26px;
+  font-weight: 700;
+  color: #5956e9;
+  text-decoration: none;
+}
+
+/* Nav */
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  position: relative;
+}
+
+.nav-menu li a,
+.nav-menu li span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover,
+.nav-menu li span:hover {
+  color: #5956e9;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  position: absolute;
+  z-index: 9999;
+  top: 150%;
+  left: 0;
+  background: #ffffff;
+  min-width: 210px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  padding: 10px 0;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  top: 130%;
+}
+
+.dropdown-menu li {
+  padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+  color: #333;
+  font-size: 15px;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  color: #5956e9;
+  padding-left: 6px;
+  transition: all 0.3s ease;
+}
