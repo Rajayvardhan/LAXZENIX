@@ -1769,7 +1769,7 @@ button {
   left: -30px;
 }
 .about-area-v1 .img-holder img {
-  border-radius: 250px;
+  border-radius: 550px;
 }
 .about-area-v1 .text-wrapper h4 {
   font-size: 22px;
@@ -2084,7 +2084,7 @@ button {
 }
 .portfolio-style-two .img-holder img,
 .portfolio-style-one .img-holder img {
-  width: 100%;
+  width: 70%;
 }
 .portfolio-style-one .img-holder .portfolio-hover {
   position: absolute;
@@ -2485,11 +2485,11 @@ button {
   margin-bottom: 20px;
 }
 .testimonial-area-v1 .testimonial-item .testimonial-content h3 {
-  font-size: 40px;
-  line-height: 55px;
+  font-size: 20px;
+  line-height: 25px;
   color: #fff;
-  font-weight: 400;
-  margin-bottom: 35px;
+  font-weight: 200;
+  margin-bottom: 25px;
 }
 .testimonial-area-v1 .testimonial-item .testimonial-content .author-title p,
 .testimonial-area-v1 .testimonial-item .testimonial-content .author-title h4 {
@@ -2520,10 +2520,10 @@ button {
   padding-left: 70px;
 }
 .testimonial-area-v2 .testimonial-item .testimonial-content h3 {
-  font-size: 40px;
+  font-size: 20px;
   line-height: 50px;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .testimonial-area-v2 .testimonial-item .testimonial-content .quote-rating {
   margin-bottom: 20px;
@@ -2534,7 +2534,7 @@ button {
   .quote-rating
   .quote
   i {
-  font-size: 55px;
+  font-size: 25px;
   color: var(--blue-dark);
 }
 .testimonial-area-v2
@@ -2545,7 +2545,7 @@ button {
   li
   span {
   color: var(--heading);
-  font-size: 22px;
+  font-size: 12px;
   font-weight: 700;
   margin-right: 10px;
 }
@@ -2645,7 +2645,7 @@ button {
   border-radius: 50%;
 }
 .testimonial-area-v3 .testimonial-item .testimonial-content p {
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 .testimonial-area-v3
   .testimonial-item
@@ -2665,7 +2665,7 @@ button {
   .quote
   i {
   color: var(--blue-dark);
-  font-size: 30px;
+  font-size: 16px;
 }
 .testimonial-area-v3
   .testimonial-item
@@ -2695,8 +2695,8 @@ button {
   bottom: -100px;
   left: -115px;
   content: "";
-  width: 550px;
-  height: 550px;
+  width: 350px;
+  height: 350px;
   background-color: var(--light-gray);
   border-radius: 50%;
   z-index: -1;
@@ -2707,7 +2707,7 @@ button {
   border: 5px solid rgba(89, 86, 233, 0.102);
 }
 .testimonial-area-v4 .testimonial-item .testimonial-content p {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 38px;
   margin-bottom: 30px;
   color: var(--heading);
@@ -2738,7 +2738,7 @@ button {
   .author-title
   p.position {
   color: var(--blue-dark);
-  font-size: 18px;
+  font-size: 10px;
   line-height: 28px;
   font-weight: 500;
   margin-bottom: 0;
@@ -3094,15 +3094,15 @@ button {
   position: relative;
 }
 .team-area-v1 .team-item .img-holder img {
-  width: 100%;
+  width: 70%;
   border-radius: 135px;
 }
 .team-area-v1 .team-item .img-holder .team-hover {
   position: absolute;
   bottom: -20px;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3187,7 +3187,7 @@ button {
 }
 .team-area-v2 .team-item .img-holder img {
   border-radius: 5px;
-  width: 100%;
+  width: 70%;
 }
 .team-area-v2 .team-item .text {
   position: relative;
@@ -3254,7 +3254,7 @@ button {
   overflow: hidden;
 }
 .team-area-v3 .team-item .img-holder img {
-  width: 100%;
+  width: 70%;
   border-radius: 5px;
 }
 .team-area-v3 .team-item:hover .img-holder .team-hover .social-link {
@@ -5235,105 +5235,218 @@ button {
 
 
 /* headernew css */
-.site-header {
-  width: 100%;
-  background: #ffffff;
-  border-bottom: 1px solid #eee;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 
-.header-container {
+/* Header */
+.site-header {
+  width: 100%;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: all 0.4s ease;
+}
+
+/* When scrolled */
+.site-header.scrolled {
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+  backdrop-filter: blur(10px);
+}
+
+/* Optional: text color change on scroll */
+.site-header.scrolled .site-menu > li > a {
+  color: #111;
+  text-shadow: none;
+}
+
+.site-header.scrolled .site-menu > li > a:hover {
+  color: #8d50ff;
+}
+
+
+.site-header-inner {
   max-width: 1300px;
   margin: auto;
   padding: 0 24px;
   height: 80px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  overflow: visible;
+}
+
+/* Logo */
+.brand-box {
+  justify-self: start;
+}
+
+.brand-box img {
+  height: 48px;
+}
+
+/* Nav */
+.site-nav {
+  justify-self: center;
+}
+
+.site-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.site-menu li {
+  position: relative;
+}
+
+/* Links */
+.site-menu > li > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+  padding: 10px 0;
+  transition: 0.3s ease;
+}
+
+.site-menu > li > a {
+  position: relative;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+
+/* underline */
+.site-menu > li > a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #8d50ff, #c7a8ff);
+  transition: all 0.35s ease;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+/* premium hover */
+.site-menu > li > a:hover {
+  color: #8d50ff;
+  transform: translateY(-2px);
+  text-shadow: 0 4px 10px rgba(141, 80, 255, 0.35);
+}
+
+/* underline animation */
+.site-menu > li > a:hover::after {
+  width: 100%;
+}
+
+
+/* Dropdown */
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 210px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: all 0.3s ease;
+  padding: 10px 0;
+  z-index: 99999;
+}
+
+/* Hover trigger */
+.has-dropdown:hover > .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Dropdown links */
+.submenu li a {
+  display: block;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  white-space: nowrap;
+}
+
+.submenu li a:hover {
+  background: #ede6f9;
+  color: #8d50ff;
+}
+
+
+/* ========== TOP HEADER BAR ========== */
+
+.top-header {
+  width: 100%;
+  background: linear-gradient(135deg, #1e266d, #0b2a5a);
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.top-header-inner {
+  max-width: 1300px;
+  margin: auto;
+  padding: 10px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Logo */
-.logo a {
-  font-size: 26px;
-  font-weight: 700;
-  color: #5956e9;
-  text-decoration: none;
-}
-
-/* Nav */
-.nav {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-menu {
-  list-style: none;
+.top-left {
   display: flex;
   align-items: center;
-  gap: 36px;
-  margin: 0;
-  padding: 0;
+  gap: 12px;
+  opacity: 0.95;
 }
 
-.nav-menu li {
-  position: relative;
+.top-left span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
 }
 
-.nav-menu li a,
-.nav-menu li span {
-  font-size: 16px;
-  font-weight: 500;
-  color: #111;
-  cursor: pointer;
-  text-decoration: none;
-  transition: color 0.3s ease;
+.top-left .divider {
+  opacity: 0.4;
 }
 
-.nav-menu li a:hover,
-.nav-menu li span:hover {
-  color: #5956e9;
-}
-
-/* Dropdown */
-.dropdown-menu {
-  position: absolute;
-  z-index: 9999;
-  top: 150%;
-  left: 0;
+/* Right button */
+.top-right .top-contact-btn {
   background: #ffffff;
-  min-width: 210px;
+  color: #0b2a5a;
+  padding: 3px 14px;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(10px);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
   transition: all 0.3s ease;
-  padding: 10px 0;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+.top-right .top-contact-btn:hover {
+  background: linear-gradient(135deg, #8d50ff, #00f0ff);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(141,80,255,0.45);
 }
 
 
-.dropdown:hover .dropdown-menu {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-  top: 130%;
-}
-
-.dropdown-menu li {
-  padding: 10px 20px;
-}
-
-.dropdown-menu li a {
-  color: #333;
-  font-size: 15px;
-  display: block;
-}
-
-.dropdown-menu li a:hover {
-  color: #5956e9;
-  padding-left: 6px;
-  transition: all 0.3s ease;
-}
