@@ -61,20 +61,14 @@ export default function Header() {
             </li>
 
             <li className="has-dropdown">
-              <a href="#">Portfolio</a>
-              <ul className="submenu">
-                <li><a href="/Our_profolio">Our Portfolio</a></li>
-                <li><a href="/Our_portfolio_details">Portfolio Detail</a></li>
-              </ul>
+              <a href="/Our_profolio">Portfolio</a>
+            
             </li>
 
-            <li className="has-dropdown">
-              <a href="#">Blog</a>
-              <ul className="submenu">
+          
                 <li><a href="/Our_blog">Our Blog</a></li>
-                <li><a href="/Blog_details">Blog Detail</a></li>
-              </ul>
-            </li>
+               
+              
 
             <li><a href="/contactUs">Contact</a></li>
 

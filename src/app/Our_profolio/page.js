@@ -2,164 +2,7 @@ export default function OurPortfolioPage() {
   return (
     <>
     
-      {/* <header className="theme-header transparent-header">
-        <div className="header-navigation navigation-style-v1">
-          <div className="nav-overlay"></div>
-          <div className="container-fluid">
-            <div className="primary-menu">
-              <div className="site-branding">
-                <a href="index.html" className="brand-logo">
-                  <img src="assets/images/logo/logo-1.png" alt="Site Logo" />
-                </a>
-              </div>
-              <div className="nav-menu">
-                <div className="navbar-close">
-                  <i className="far fa-times"></i>
-                </div>
-                <div className="nav-search">
-                  <form>
-                    <div className="form_group">
-                      <input
-                        type="email"
-                        className="form_control"
-                        placeholder="Search Here"
-                        name="email"
-                        required
-                      />
-                      <button className="search-btn">
-                        <i className="fas fa-search"></i>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <nav className="main-menu">
-                  <ul>
-                    <li className="menu-item has-children">
-                      <a href="projects.html#" className="nav-link">
-                        Demos
-                      </a>
-                      <ul className="sub-menu">
-                        <li className="has-children">
-                          <a href="projects.html#">Multipage</a>
-                          <ul className="sub-menu">
-                            <li>
-                              <a href="index.html">Creative Agency</a>
-                            </li>
-                            <li>
-                              <a href="index-2.html">Digital Agency</a>
-                            </li>
-                            <li>
-                              <a href="index-3.html">Design Studio</a>
-                            </li>
-                            <li>
-                              <a href="index-3-dark.html">Design Studio Dark</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="has-children">
-                          <a href="projects.html#">Onepage</a>
-                          <ul className="sub-menu">
-                            <li>
-                              <a href="onepage-index-1.html">Creative Agency</a>
-                            </li>
-                            <li>
-                              <a href="onepage-index-2.html">Digital Agency</a>
-                            </li>
-                            <li>
-                              <a href="onepage-index-3.html">Design Studio</a>
-                            </li>
-                            <li>
-                              <a href="onepage-index-3-dark.html">
-                                Design Studio Dark
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item has-children">
-                      <a href="projects.html#" className="nav-link">
-                        Services
-                      </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="services.html">Our Service</a>
-                        </li>
-                        <li>
-                          <a href="service-details.html">Service Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item has-children">
-                      <a href="projects.html#" className="active nav-link">
-                        Portfolio
-                      </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="projects.html">Our Portfolio</a>
-                        </li>
-                        <li>
-                          <a href="project-details.html">Portfolio Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item has-children">
-                      <a href="projects.html#" className="nav-link">
-                        Pages
-                      </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="about.html">About Us</a>
-                        </li>
-                        <li>
-                          <a href="team.html">Our Team</a>
-                        </li>
-                        <li>
-                          <a href="team-details.html">Team Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item has-children">
-                      <a href="projects.html#" className="nav-link">
-                        Blog
-                      </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="blogs.html">Our Blog</a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">Blog Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item">
-                      <a href="contact.html" className="nav-link">
-                        Contact
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <div className="header-right-nav">
-                <ul>
-                  <li className="bar-item">
-                    <a href="projects.html#">
-                      <img src="assets/images/dot.png" alt="dot" />
-                    </a>
-                  </li>
-                  <li className="navbar-toggle-btn">
-                    <div className="navbar-toggler">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header> */}
+     
       <section className="page-banner bg_cover position-relative z-1">
         <div className="shape shape-one scene">
           <span data-depth="1">
@@ -248,7 +91,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Dashboard Design</a>
+                    <a href="/Our_portfolio_details">Dashboard Design</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design
@@ -274,7 +117,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Landing Pages</a>
+                    <a href="/Our_portfolio_details">Landing Pages</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design
@@ -300,7 +143,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Illustration Design</a>
+                    <a href="/Our_portfolio_details">Illustration Design</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design
@@ -326,7 +169,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Dashboard Design</a>
+                    <a href="/Our_portfolio_details">Dashboard Design</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design
@@ -352,7 +195,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Apps Development</a>
+                    <a href="/Our_portfolio_details">Apps Development</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design
@@ -378,7 +221,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Website Design</a>
+                    <a href="/Our_portfolio_details">Website Design</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design
@@ -404,7 +247,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Dashboard Design</a>
+                    <a href="/Our_portfolio_details">Dashboard Design</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design
@@ -430,7 +273,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Apps Development</a>
+                    <a href="/Our_portfolio_details">Apps Development</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design
@@ -456,7 +299,7 @@ export default function OurPortfolioPage() {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <a href="project-details.html">Website Design</a>
+                    <a href="/Our_portfolio_details">Website Design</a>
                   </h3>
                   <a href="projects.html" className="cat-link">
                     Creative Design

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 export default function ContactUs() {
       const [formData, setFormData] = useState({
@@ -17,10 +18,11 @@ export default function ContactUs() {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+ const handleSubmit = (e) => {
+  e.preventDefault();
 
-    emailjs.send(
+  emailjs
+    .send(
       "service_oqrsv4v",
       "template_sr4txg7",
       {
@@ -32,7 +34,13 @@ export default function ContactUs() {
       "vSaSvfRkrLvVQ4-Ez"
     )
     .then(() => {
-      alert("Message sent successfully!");
+      Swal.fire({
+        icon: "success",
+        title: "Success!",
+        text: "Message sent successfully!",
+        confirmButtonColor: "#3085d6",
+      });
+
       setFormData({
         name: "",
         email: "",
@@ -41,9 +49,14 @@ export default function ContactUs() {
       });
     })
     .catch(() => {
-      alert("Failed to send message");
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Failed to send message",
+        confirmButtonColor: "#d33",
+      });
     });
-  };
+};
 
     return (
         <>
@@ -159,11 +172,14 @@ export default function ContactUs() {
                                         <div className="icon">
                                             <i className="far fa-envelope-open-text"></i>
                                         </div>
-                                        <div className="info">
+                                        <div className="info mb-65 " >
                                             <h4>Email Address</h4>
                                             <p>
                                                 <a href="https://wpriverthemes.com/HTML/pixlab/mailto;hotlinein@gmail.com">
                                                     laxzenix@gmail.com
+                                                </a>
+                                                <a href="https://wpriverthemes.com/HTML/pixlab/mailto;hotlinein@gmail.com">
+                                                    supportlaxzenix@gmail.com
                                                 </a>
                                             </p>
                                            
@@ -200,8 +216,12 @@ export default function ContactUs() {
                                         <div className="info">
                                             <h4>Working Hours</h4>
                                             <p>
-                                                <span>Sunday - Monday</span>
+                                                <span>Monday - Friday</span>
+                                               
+                                            </p>
+                                            <p>
                                                 <span>09 am - 05 pm</span>
+                                               
                                             </p>
                                         </div>
                                     </div>
@@ -210,7 +230,7 @@ export default function ContactUs() {
                         </div>
                         <div className="col-lg-5">
                             <div className="map-box mb-30">
-                                <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                        <iframe src="https://maps.google.com/maps?q=jaipur&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
                             </div>
                         </div>
                     </div>
