@@ -130,7 +130,7 @@ export default function OurTeamPageDatails() {
                                                     <a href="blogs.html">Our Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a href="blog-details.html">Blog Details</a>
+                                                    <a href="/Blog_details">Blog Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -239,7 +239,7 @@ export default function OurTeamPageDatails() {
                                             </ul>
                                         </div>
                                         <h3 className="title">
-                                            <a href="blog-details.html">
+                                            <a href="/Blog_details">
                                                 Powerful Terminal And Command Line Seeny Tools Modern
                                                 Web Development
                                             </a>
@@ -249,7 +249,7 @@ export default function OurTeamPageDatails() {
                                             didunt ut labore et dolore magna aliqua suspendisse
                                         </p>
                                         <a
-                                            href="blog-details.html"
+                                            href="/Blog_details"
                                             className="main-btn bordered-btn btn-blue arrow-btn"
                                         >
                                             Read More
@@ -291,7 +291,7 @@ export default function OurTeamPageDatails() {
                                             </ul>
                                         </div>
                                         <h3 className="title">
-                                            <a href="blog-details.html">
+                                            <a href="/Blog_details">
                                                 Everything You Want To Know About Creating Voice User
                                                 Interfaces Powerful Terminal
                                             </a>
@@ -301,7 +301,7 @@ export default function OurTeamPageDatails() {
                                             didunt ut labore et dolore magna aliqua suspendisse
                                         </p>
                                         <a
-                                            href="blog-details.html"
+                                            href="/Blog_details"
                                             className="main-btn bordered-btn btn-blue arrow-btn"
                                         >
                                             Read More
@@ -337,7 +337,7 @@ export default function OurTeamPageDatails() {
                                             </ul>
                                         </div>
                                         <h3 className="title">
-                                            <a href="blog-details.html">
+                                            <a href="/Blog_details">
                                                 Designing Better Link Websites And Emails Guideline
                                                 Everything You Want To Know Creating Voice
                                             </a>
@@ -348,7 +348,7 @@ export default function OurTeamPageDatails() {
                                             charms of pleasure of the moment
                                         </p>
                                         <a
-                                            href="blog-details.html"
+                                            href="/Blog_details"
                                             className="main-btn bordered-btn btn-blue arrow-btn"
                                         >
                                             Read More
@@ -390,7 +390,7 @@ export default function OurTeamPageDatails() {
                                             </ul>
                                         </div>
                                         <h3 className="title">
-                                            <a href="blog-details.html">
+                                            <a href="/Blog_details">
                                                 Everything You Want To Know About Creating Voice User
                                                 Interfaces Powerful Terminal
                                             </a>
@@ -400,7 +400,7 @@ export default function OurTeamPageDatails() {
                                             didunt ut labore et dolore magna aliqua suspendisse
                                         </p>
                                         <a
-                                            href="blog-details.html"
+                                            href="/Blog_details"
                                             className="main-btn bordered-btn btn-blue"
                                         >
                                             Read More
@@ -439,12 +439,12 @@ export default function OurTeamPageDatails() {
                                                     </ul>
                                                 </div>
                                                 <h3 className="title">
-                                                    <a href="blog-details.html">
+                                                    <a href="/Blog_details">
                                                         Everything You Want To Know About Creating Voicese
                                                         User Interfaces Powerful Terminal
                                                     </a>
                                                 </h3>
-                                                <a href="blog-details.html" className="btn-link">
+                                                <a href="/Blog_details" className="btn-link">
                                                     Read More
                                                 </a>
                                             </div>
@@ -547,7 +547,7 @@ export default function OurTeamPageDatails() {
                                             />
                                             <div className="post-title-date">
                                                 <h6>
-                                                    <a href="blog-details.html">
+                                                    <a href="/Blog_details">
                                                         Guide Modern CSS Colors HWB, LAB
                                                     </a>
                                                 </h6>
@@ -563,7 +563,7 @@ export default function OurTeamPageDatails() {
                                             />
                                             <div className="post-title-date">
                                                 <h6>
-                                                    <a href="blog-details.html">
+                                                    <a href="/Blog_details">
                                                         Guide Modern CSS Colors HWB, LAB
                                                     </a>
                                                 </h6>
@@ -579,7 +579,7 @@ export default function OurTeamPageDatails() {
                                             />
                                             <div className="post-title-date">
                                                 <h6>
-                                                    <a href="blog-details.html">
+                                                    <a href="/Blog_details">
                                                         Guide Modern CSS Colors HWB, LAB
                                                     </a>
                                                 </h6>
