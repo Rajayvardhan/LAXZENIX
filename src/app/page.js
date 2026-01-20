@@ -9,6 +9,7 @@ import PortfolioSection from "./componets/HomeCom/portfolioSection";
 import ServiceSection from "./componets/HomeCom/serviceSection";
 import TeamSection from "./componets/HomeCom/TeamSection";
 import TestimonialSection from "./componets/HomeCom/TestimonialSection";
+import StudioTestimonial from "./componets/StudioComp/studioTestimonial";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <PortfolioSection />
       <CTASection />
       <CounterSection />
-      <TestimonialSection />
+      <StudioTestimonial />
     
       <ContactSection />
       <BlogSection />

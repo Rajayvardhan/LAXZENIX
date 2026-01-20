@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
     return (
         <footer className="footer-area">
@@ -7,7 +8,7 @@ export default function Footer() {
                         <div className="col-md-6">
                             <div className="footer-logo mb-40 wow fadeInLeft">
                                 <img
-                                    src="/assets/images/logo/footer-logo-1.png"
+                                    src="/assets/images/logo/lax-logo.png"
                                     alt="Brand Logo"
                                 />
                             </div>
@@ -50,12 +51,11 @@ export default function Footer() {
                             >
                                 <h4 className="widget-title">Links</h4>
                                 <ul className="widget-nav">
-                                    <li><a href="/services">About Agency</a></li>
-                                    <li><a href="/blogs">Latest News & Blog</a></li>
-                                    <li><a href="/team">Meet The Team</a></li>
-                                    <li><a href="/services">Popular Services</a></li>
-                                    <li><a href="/testimonials">Testimonials</a></li>
-                                    <li><a href="#">Need a Career?</a></li>
+                                    <li><Link href="/AboutUs">About Us</Link></li>
+                                    <li><Link href="/OurService">Our Services</Link></li>
+                                    <li><Link href="/Our_profolio">Our Portfolio Page</Link></li>
+                                    <li><Link href="/Our_blog">Blogs</Link></li>
+                                    <li><Link href="/contactUs">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -68,22 +68,13 @@ export default function Footer() {
                                 <h4 className="widget-title">Follow</h4>
                                 <ul className="social-nav">
                                     <li>
-                                        <a href="#"><i className="fab fa-dribbble"></i>Dribbble</a>
-                                    </li>
-                                    <li>
                                         <a href="#"><i className="fab fa-instagram"></i>Instagram</a>
                                     </li>
                                     <li>
                                         <a href="#"><i className="fab fa-twitter"></i>Twitter</a>
                                     </li>
                                     <li>
-                                        <a href="#"><i className="fab fa-behance"></i>Behance</a>
-                                    </li>
-                                    <li>
                                         <a href="#"><i className="fab fa-facebook-f"></i>Facebook</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i className="fab fa-medium-m"></i>Medium</a>
                                     </li>
                                 </ul>
                             </div>
@@ -100,9 +91,7 @@ export default function Footer() {
                                         Newsletter
                                     </h3>
                                     <p>
-                                        Natus errorsit voluptatem accusa dolore mque quae{" "}
-                                        <a href="#">abillo inventore verita</a> achitec beatae vitae
-                                        dicta sunt explicabo.
+                                      We build innovative digital solutions that empower businesses to grow, scale, and succeed in a rapidly evolving technological world. 
                                     </p>
                                     <form>
                                         <div className="form_group">
