@@ -5448,5 +5448,9 @@ button {
   transform: translateY(-1px);
   box-shadow: 0 8px 22px rgba(141,80,255,0.45);
 }
+.footer-logo img {
+  width: 180px;   /* decrease this value */
+  height: auto;  /* keeps aspect ratio */
+}
 
 

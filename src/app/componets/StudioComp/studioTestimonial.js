@@ -7,7 +7,7 @@ export default function StudioTestimonial() {
                         <div className="col-lg-7">
                             <div className="section-title text-center WOW fadeInUp">
                                 <span className="sub-title st-two">Our Testimonials</span>
-                                <h2 className="font-45">What Our Clients Say About Our Solutions</h2>
+                                <h2 className="font-45">What Our Client’s About Us</h2>
                             </div>
                         </div>
                     </div>
@@ -23,10 +23,7 @@ export default function StudioTestimonial() {
                                     <div className="testimonial-item">
                                         <div className="testimonial-content">
                                             <p>
-                                                Sit amet consectetur adipiscing elitsed eiusmod tempor
-                                                incididunt ut labore ets dolore magna aliqua spendisse
-                                                ultricesy gravida. Risus commodo viverra maece nas
-                                                accumsan lacus facilisis.
+                                               Real feedback from businesses who trust us for creative design, development, and digital solutions.
                                             </p>
                                             <div className="author-title-thumb d-flex">
                                                 <div className="author-thumb">
@@ -36,7 +33,7 @@ export default function StudioTestimonial() {
                                                     />
                                                 </div>
                                                 <div className="author-title">
-                                                    <h4>Robert A. Greening</h4>
+                                                    <h4>Sunil grover</h4>
                                                     <p className="position">Senior Manager</p>
                                                 </div>
                                             </div>
@@ -45,10 +42,7 @@ export default function StudioTestimonial() {
                                     <div className="testimonial-item">
                                         <div className="testimonial-content">
                                             <p>
-                                                Sit amet consectetur adipiscing elitsed eiusmod tempor
-                                                incididunt ut labore ets dolore magna aliqua spendisse
-                                                ultricesy gravida. Risus commodo viverra maece nas
-                                                accumsan lacus facilisis.
+                                               What we liked most was their creative approach and attention to detail. From design to development, everything was well-planned and executed on time
                                             </p>
                                             <div className="author-title-thumb d-flex">
                                                 <div className="author-thumb">
@@ -58,8 +52,8 @@ export default function StudioTestimonial() {
                                                     />
                                                 </div>
                                                 <div className="author-title">
-                                                    <h4>Robert A. Greening</h4>
-                                                    <p className="position">Senior Manager</p>
+                                                    <h4>Devika Chhipa</h4>
+                                                    <p className="position">Project Manager</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -67,10 +61,7 @@ export default function StudioTestimonial() {
                                     <div className="testimonial-item">
                                         <div className="testimonial-content">
                                             <p>
-                                                Sit amet consectetur adipiscing elitsed eiusmod tempor
-                                                incididunt ut labore ets dolore magna aliqua spendisse
-                                                ultricesy gravida. Risus commodo viverra maece nas
-                                                accumsan lacus facilisis.
+                                               Working with Laxzenix felt more like a partnership than a service. They listened to our ideas, suggested improvements, and delivered a digital solution that exceeded expectations.
                                             </p>
                                             <div className="author-title-thumb d-flex">
                                                 <div className="author-thumb">
@@ -80,8 +71,8 @@ export default function StudioTestimonial() {
                                                     />
                                                 </div>
                                                 <div className="author-title">
-                                                    <h4>Robert A. Greening</h4>
-                                                    <p className="position">Senior Manager</p>
+                                                    <h4>vijay Singh</h4>
+                                                    <p className="position">CTO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -89,10 +80,7 @@ export default function StudioTestimonial() {
                                     <div className="testimonial-item">
                                         <div className="testimonial-content">
                                             <p>
-                                                Sit amet consectetur adipiscing elitsed eiusmod tempor
-                                                incididunt ut labore ets dolore magna aliqua spendisse
-                                                ultricesy gravida. Risus commodo viverra maece nas
-                                                accumsan lacus facilisis.
+                                               Highly impressed with their design quality and technical expertise. The team is responsive, creative, and focused on delivering real value.
                                             </p>
                                             <div className="author-title-thumb d-flex">
                                                 <div className="author-thumb">
@@ -102,8 +90,8 @@ export default function StudioTestimonial() {
                                                     />
                                                 </div>
                                                 <div className="author-title">
-                                                    <h4>Robert A. Greening</h4>
-                                                    <p className="position">Senior Manager</p>
+                                                    <h4>Niranjan Kumawat</h4>
+                                                    <p className="position">Founder of kuberyog</p>
                                                 </div>
                                             </div>
                                         </div>

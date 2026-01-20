@@ -126,7 +126,7 @@ export default function OurServicePage() {
 
       <StudioPortfolio />
       <StudioCounter />
-      <StudioTestimonial />
+     
       <StudioBlog />
       <section className="service-area service-area-v1 bototm-minus-200 position-relative z-2">
         <div className="container">
