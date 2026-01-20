@@ -6,7 +6,7 @@ import StudioServicesV3 from "../componets/StudioComp/studioServicesV3";
 export default function AboutUsPage() {
     return (
         <>
-            <div className="offcanvas-panel">
+            {/* <div className="offcanvas-panel">
                 <div className="panel-overlay"></div>
                 <div className="offcanvas-panel-inner">
                     <div className="panel-logo">
@@ -45,7 +45,7 @@ export default function AboutUsPage() {
                         <i className="fal fa-times"></i>
                     </a>
                 </div>
-            </div>
+            </div> */}
             {/* <header className="theme-header transparent-header">
                 <div className="header-navigation navigation-style-v1">
                     <div className="nav-overlay"></div>

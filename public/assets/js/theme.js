@@ -91,7 +91,7 @@
         $(".navbar-toggler").removeClass("active");
         $(".nav-menu").removeClass("menu-on");
     });
-
+ 
     // Document Ready
     $(document).ready(function () {
         mainMenu();

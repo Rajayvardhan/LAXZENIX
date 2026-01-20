@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function DigiNavBar() {
   return (
     <>
-      <div className="offcanvas-panel">
+      {/* <div className="offcanvas-panel">
         <div className="panel-overlay"></div>
         <div className="offcanvas-panel-inner">
           <div className="panel-logo">
@@ -43,8 +43,8 @@ export default function DigiNavBar() {
             <i className="fal fa-times"></i>
           </a>
         </div>
-      </div>
-      <header className="theme-header transparent-header">
+      </div> */}
+      {/* <header className="theme-header transparent-header">
         <div className="header-navigation navigation-style-v2">
           <div className="nav-overlay"></div>
           <div className="container-fluid">
@@ -207,7 +207,7 @@ export default function DigiNavBar() {
             </div>
           </div>
         </div>
-      </header>
+      </header> */}
     </>
   );
 }

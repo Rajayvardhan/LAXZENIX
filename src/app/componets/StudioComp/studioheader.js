@@ -1,47 +1,8 @@
 export default function StudioHeader() {
     return (
         <>
-            <div className="offcanvas-panel">
-                <div className="panel-overlay"></div>
-                <div className="offcanvas-panel-inner">
-                    <div className="panel-logo">
-                        <a href="index.html">
-                            <img src="assets/images/logo/logo-1.png" alt="Logo" />
-                        </a>
-                    </div>
-                    <div className="about-us">
-                        <h5 className="panel-widget-title">About Us</h5>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                            ipsam alias quae cupiditate quas, neque eum magni impedit
-                            asperiores.
-                        </p>
-                    </div>
-                    <div className="contact-us">
-                        <h5 className="panel-widget-title">Contact Us</h5>
-                        <ul>
-                            <li>
-                                <i className="fal fa-map-marker-alt"></i>
-                                121 King St, Melbourne VIC 3000, Australia.
-                            </li>
-                            <li>
-                                <i className="fal fa-envelope-open"></i>
-                                <a href="mailto:hello@barky.com"> hello@barky.com</a>
-                                <a href="mailto:info@barky.com">info@barky.com</a>
-                            </li>
-                            <li>
-                                <i className="fal fa-phone"></i>
-                                <a href="tel:(312)-895-9800">(312) 895-9800</a>
-                                <a href="tel:(312)-895-9888">(312) 895-9888</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="index-3.html#" className="panel-close">
-                        <i className="fal fa-times"></i>
-                    </a>
-                </div>
-            </div>
-            <header className="theme-header">
+          
+            {/* <header className="theme-header">
                 <div className="header-navigation navigation-style-v3">
                     <div className="nav-overlay"></div>
                     <div className="container-fluid">
@@ -207,7 +168,7 @@ export default function StudioHeader() {
                         </div>
                     </div>
                 </div>
-            </header>
+            </header> */}
         </>
     );
 }

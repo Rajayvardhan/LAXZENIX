@@ -1,5 +1,4 @@
 import Footer from "./componets/Footer";
-import Header from "./componets/header";
 import AboutSection from "./componets/HomeCom/aboutSection";
 import BlogSection from "./componets/HomeCom/BlogSection";
 import ContactSection from "./componets/HomeCom/ContactSection";
@@ -14,7 +13,7 @@ import TestimonialSection from "./componets/HomeCom/TestimonialSection";
 export default function Home() {
   return (
     <>
-      <Header />
+      
       <HeroBanner />
       <AboutSection />
       <ServiceSection />

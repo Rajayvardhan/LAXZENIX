@@ -1989,7 +1989,7 @@ button {
 }
 .portfolio-style-two .img-holder img,
 .portfolio-style-one .img-holder img{
-    width: 100%;
+    width: 70%;
 }
 .portfolio-style-one .img-holder .portfolio-hover{
     position: absolute;
@@ -2385,18 +2385,18 @@ button {
     border-radius: 110px;
 }
 .testimonial-area-v1 .img-holder img{
-    border-radius: 217px;
+    border-radius: 117px;
 }
 .testimonial-area-v1 .testimonial-item .testimonial-content i{
-    font-size: 55px;
+    font-size: 25px;
     color: #fff;
     margin-bottom: 20px;
 }
 .testimonial-area-v1 .testimonial-item .testimonial-content h3{
-    font-size: 40px;
-    line-height: 55px;
+    font-size: 20px;
+    line-height: 25px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 200;
     margin-bottom: 35px;
 }
 .testimonial-area-v1 .testimonial-item .testimonial-content .author-title p,
@@ -2428,22 +2428,22 @@ button {
     padding-left: 70px;
 }
 .testimonial-area-v2 .testimonial-item .testimonial-content h3{
-    font-size: 40px;
-    line-height: 50px;
-    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 200;
     margin-bottom: 30px;
 }
 .testimonial-area-v2 .testimonial-item .testimonial-content .quote-rating{
     margin-bottom: 20px;
 }
 .testimonial-area-v2 .testimonial-item .testimonial-content .quote-rating .quote i{
-    font-size: 55px;
+    font-size: 25px;
     color: var(--blue-dark);
 }
 .testimonial-area-v2 .testimonial-item .testimonial-content .quote-rating .ratings li span{
     color: var(--heading);
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 300;
     margin-right: 10px;
 }
 .testimonial-area-v2 .testimonial-item .testimonial-content .quote-rating .ratings li i{
@@ -2466,7 +2466,7 @@ button {
     margin-bottom: 3px;
 }
 .testimonial-area-v2 .testimonial-item .testimonial-content .author-title p.position{
-    font-weight: 500;
+    font-weight: 300;
     color: var(--heading);
     font-size: 20px;
 }
@@ -2540,7 +2540,7 @@ button {
 }
 .testimonial-area-v3 .testimonial-item .testimonial-content .author-quote-title .quote i{
     color: var(--blue-dark);
-    font-size: 30px;
+    font-size: 20px;
 }
 .testimonial-area-v3 .testimonial-item .testimonial-content .author-quote-title  .author-title{
     margin-top: -3px;
@@ -2562,8 +2562,8 @@ button {
     bottom: -100px;
     left: -115px;
     content: '';
-    width: 550px;
-    height: 550px;
+    width: 350px;
+    height: 350px;
     background-color: var(--light-gray);
     border-radius: 50%;
     z-index: -1;
@@ -2574,7 +2574,7 @@ button {
     border: 5px solid rgba(89, 86, 233, .102);
 }
 .testimonial-area-v4 .testimonial-item .testimonial-content p{
-    font-size: 24px;
+    font-size: 16px;
     line-height: 38px;
     margin-bottom: 30px;
     color: var(--heading);
@@ -2591,7 +2591,7 @@ button {
 }
 .testimonial-area-v4 .testimonial-item .testimonial-content .author-title-thumb .author-title p.position{
     color: var(--blue-dark);
-    font-size: 18px;
+    font-size: 12px;
     line-height: 28px;
     font-weight: 500;
     margin-bottom: 0;
@@ -2931,7 +2931,7 @@ button {
     position: relative;
 }
 .team-area-v1 .team-item .img-holder img{
-    width: 100%;
+    width: 70%;
     border-radius: 135px;
 }
 .team-area-v1 .team-item .img-holder .team-hover{
