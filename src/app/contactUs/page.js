@@ -1,167 +1,92 @@
 "use client";
+import { useState } from "react";
+import emailjs from "emailjs-com";
 
 export default function ContactUs() {
+      const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs.send(
+      "service_oqrsv4v",
+      "template_sr4txg7",
+      {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        message: formData.message,
+      },
+      "vSaSvfRkrLvVQ4-Ez"
+    )
+    .then(() => {
+      alert("Message sent successfully!");
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    })
+    .catch(() => {
+      alert("Failed to send message");
+    });
+  };
+
     return (
         <>
-          
-            {/* <header className="theme-header transparent-header">
-                <div className="header-navigation navigation-style-v1">
-                    <div className="nav-overlay"></div>
-                    <div className="container-fluid">
-                        <div className="primary-menu">
-                            <div className="site-branding">
-                                <a href="index.html" className="brand-logo">
-                                    <img src="assets/images/logo/logo-1.png" alt="Site Logo" />
-                                </a>
-                            </div>
-                            <div className="nav-menu">
-                                <div className="navbar-close">
-                                    <i className="far fa-times"></i>
-                                </div>
-                                <div className="nav-search">
-                                    <form>
-                                        <div className="form_group">
-                                            <input
-                                                type="email"
-                                                className="form_control"
-                                                placeholder="Search Here"
-                                                name="email"
-                                                required
-                                            />
-                                            <button className="search-btn">
-                                                <i className="fas fa-search"></i>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <nav className="main-menu">
-                                    <ul>
-                                        <li className="menu-item has-children">
-                                            <a href="contact.html#" className="nav-link">
-                                                Demos
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li className="has-children">
-                                                    <a href="contact.html#">Multipage</a>
-                                                    <ul className="sub-menu">
-                                                        <li>
-                                                            <a href="index.html">Creative Agency</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-2.html">Digital Agency</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-3.html">Design Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-3-dark.html">Design Studio Dark</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li className="has-children">
-                                                    <a href="contact.html#">Onepage</a>
-                                                    <ul className="sub-menu">
-                                                        <li>
-                                                            <a href="onepage-index-1.html">Creative Agency</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="onepage-index-2.html">Digital Agency</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="onepage-index-3.html">Design Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="onepage-index-3-dark.html">
-                                                                Design Studio Dark
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item has-children">
-                                            <a href="contact.html#" className="nav-link">
-                                                Services
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <a href="services.html">Our Service</a>
-                                                </li>
-                                                <li>
-                                                    <a href="service-details.html">Service Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item has-children">
-                                            <a href="contact.html#" className="nav-link">
-                                                Portfolio
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <a href="projects.html">Our Portfolio</a>
-                                                </li>
-                                                <li>
-                                                    <a href="project-details.html">Portfolio Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item has-children">
-                                            <a href="contact.html#" className="nav-link">
-                                                Pages
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <a href="about.html">About Us</a>
-                                                </li>
-                                                <li>
-                                                    <a href="team.html">Our Team</a>
-                                                </li>
-                                                <li>
-                                                    <a href="team-details.html">Team Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item has-children">
-                                            <a href="contact.html#" className="nav-link">
-                                                Blog
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <a href="blogs.html">Our Blog</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details.html">Blog Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item">
-                                            <a href="contact.html" className="active nav-link">
-                                                Contact
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div className="header-right-nav">
-                                <ul>
-                                    <li className="bar-item">
-                                        <a href="contact.html#">
-                                            <img src="assets/images/dot.png" alt="dot" />
-                                        </a>
-                                    </li>
-                                    <li className="navbar-toggle-btn">
-                                        <div className="navbar-toggler">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            <div className="offcanvas-panel">
+                <div className="panel-overlay"></div>
+                <div className="offcanvas-panel-inner">
+                    <div className="panel-logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo/logo-1.png" alt="Logo" />
+                        </a>
                     </div>
+                    <div className="about-us">
+                        <h5 className="panel-widget-title">About Us</h5>
+                        <p>
+                            We are a team of designers and developers that create high quality HTML5 templates and
+                            web design resources for the creative community.
+                        </p>
+                    </div>
+                    <div className="contact-us">
+                        <h5 className="panel-widget-title">Contact Us</h5>
+                        <ul>
+                            <li>
+                                <i className="fal fa-map-marker-alt"></i>
+                                 Sunny square,Jagatpura, Jaipur,Rajasthan 302033
+                            </li>
+                            <li>
+                                <i className="fal fa-envelope-open"></i>
+                                <a href="mailto:laxzenix@gmail.com">laxzenix@gmail.com</a>
+                                
+                            </li>
+                            <li>
+                                <i className="fal fa-phone"></i>
+                                <a href="+917357444352">(312) 895-9800</a>
+                                <a href="tel:+917357444352">(+91)7357444352</a>
+                            </li>   
+                        </ul>
+                    </div>
+                    <a href="contact.html#" className="panel-close">
+                        <i className="fal fa-times"></i>
+                    </a>
                 </div>
-            </header> */}
+            </div>
+            
             <section className="page-banner bg_cover position-relative z-1">
                 <div className="shape shape-one scene">
                     <span data-depth="1">
@@ -222,7 +147,7 @@ export default function ContactUs() {
                                         </div>
                                         <div className="info">
                                             <h4>Locations</h4>
-                                            <p>505 Main Street, 2nd Block, New York</p>
+                                            <p>Sunny group Sunny square, near IHMR, Budhsinghpura, Sheopur, Jagatpura, Jaipur, Rajasthan 302033</p>
                                         </div>
                                     </div>
                                 </div>
@@ -238,14 +163,10 @@ export default function ContactUs() {
                                             <h4>Email Address</h4>
                                             <p>
                                                 <a href="https://wpriverthemes.com/HTML/pixlab/mailto;hotlinein@gmail.com">
-                                                    hotlinein@gmail.com
+                                                    laxzenix@gmail.com
                                                 </a>
                                             </p>
-                                            <p>
-                                                <a href="https://wpriverthemes.com/HTML/pixlab/mailto;hotlinein@gmail.com">
-                                                    www.info.net
-                                                </a>
-                                            </p>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -260,10 +181,10 @@ export default function ContactUs() {
                                         <div className="info">
                                             <h4>Phone Number</h4>
                                             <p>
-                                                <a href="tel:+012(345)67899">+012 (345) 678 99</a>
+                                                <a href="tel:+917357444352">+91 7357444352</a>
                                             </p>
                                             <p>
-                                                <a href="tel:+012(345)67899">+0123456</a>
+                                                <a href="tel:+917357444352">+0123456</a>
                                             </p>
                                         </div>
                                     </div>
@@ -310,7 +231,7 @@ export default function ContactUs() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="contact-form">
-                                        <form>
+                                        <form onSubmit={handleSubmit}>
                                             <div className="row">
                                                 <div className="col-lg-4">
                                                     <div className="form_group">
@@ -319,6 +240,8 @@ export default function ContactUs() {
                                                             className="form_control"
                                                             placeholder="Full Name"
                                                             name="name"
+                                                                                          value={formData.name}
+                              onChange={handleChange}
                                                             required
                                                         />
                                                     </div>
@@ -330,6 +253,8 @@ export default function ContactUs() {
                                                             className="form_control"
                                                             placeholder="Email Address "
                                                             name="email"
+                                                                                          value={formData.email}
+                              onChange={handleChange}
                                                             required
                                                         />
                                                     </div>
@@ -341,6 +266,8 @@ export default function ContactUs() {
                                                             className="form_control"
                                                             placeholder="Phone Number"
                                                             name="phone"
+                                                                                          value={formData.phone}
+                              onChange={handleChange}
                                                             required
                                                         />
                                                     </div>
@@ -351,12 +278,14 @@ export default function ContactUs() {
                                                             className="form_control"
                                                             placeholder="Write Message"
                                                             name="message"
+                                                                                          value={formData.message}
+                              onChange={handleChange}
                                                         ></textarea>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-12">
                                                     <div className="form_group text-center">
-                                                        <button className="main-btn">Send Us Message</button>
+                                                        <button className="main-btn" type="submit">Send Us Message</button>
                                                     </div>
                                                 </div>
                                             </div>

@@ -16,7 +16,7 @@ export default function TestimonialSection() {
             <div className="section-title section-title-white mb-50 wow fadeInLeft">
               <span className="sub-title st-one">Testimonials</span>
               <h2>What Our Client’s About Us</h2>
-              <p>Professional Design Agency to provide solutions</p>
+              <p className="fs-5">Professional Design Agency to provide solutions</p>
             </div>
           </div>
         </div>

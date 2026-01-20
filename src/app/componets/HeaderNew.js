@@ -1,125 +1,88 @@
 "use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+
+
 
 export default function Header() {
-    return (
-          <header className="theme-header transparent-header">
-        {/* header Navigation */}
-        <div className="header-navigation navigation-style-v1">
-          <div className="nav-overlay"></div>
+   const [scrolled, setScrolled] = useState(false);
 
-          <div className="container-fluid">
-            <div className="primary-menu">
-              <div className="site-branding">
-                <Link href="/" className="brand-logo">
-                    <Image
-                        src="/assets/images/logo/lax-logo.png"
-                        alt="Lax Logo"
-                        width={150}
-                        height={50}
-                    />
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 60);
+    };
 
-                </Link>
-              </div>
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
-              <div className="nav-menu">
-                {/* Navbar Close */}
-                <div className="navbar-close">
-                  <i className="far fa-times"></i>
-                </div>
+  return (
+    <>
+     {/* <div className="top-header">
+        <div className="top-header-inner">
 
-                {/* Nav Search */}
-                <div className="nav-search">
-                  <form>
-                    <div className="form_group">
-                      <input
-                        type="email"
-                        className="form_control"
-                        placeholder="Search Here"
-                        name="email"
-                        required
-                      />
-                      <button className="search-btn">
-                        <i className="fas fa-search"></i>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-
-                {/* Main Menu */}
-                <nav className="main-menu">
-                  <ul>
-                    <li className="menu-item children1">
-                      <Link href="/" className="nav-link">Home</Link>
-                    </li>
-                    <li className="menu-item children1">
-                      <Link href="/AboutUs" className="nav-link">AboutUs</Link>
-                    </li>
-                    <li className="menu-item has-children">
-                      <Link href="" className="nav-link">Services</Link>
-                      <ul className="sub-menu">
-                        <li><Link href="/OurService">Our Service</Link></li>
-                        <li><Link href="/Service_details">Service Details</Link></li>
-                      </ul>
-                    </li>
-
-                    <li className="menu-item has-children">
-                      <Link href="#" className="nav-link">Portfolio</Link>
-                      <ul className="sub-menu">
-                        <li><Link href="/Our_profolio">Our Portfolio</Link></li>
-                        <li><Link href="/Our_portfolio_details">Portfolio Details</Link></li>
-                      </ul>
-                    </li>
-
-                    {/* <li className="menu-item has-children">
-                      <Link href="#" className="nav-link">Pages</Link>
-                      <ul className="sub-menu">
-                        <li><Link href="/AboutUs">About Us</Link></li>
-                        <li><Link href="/Our_team">Our Team</Link></li>
-                        <li><Link href="/Our_Team_details">Team Details</Link></li>
-                      </ul>
-                    </li> */}
-
-                    <li className="menu-item has-children">
-                      <a href="#" className="nav-link">Blog</a>
-                      <ul className="sub-menu">
-                        <li><Link href="/Our_blog">Our Blog</Link></li>
-                        <li><Link href="/Blog_details">Blog Details</Link></li>
-                      </ul>
-                    </li>
-                    {/* <li className="menu-item childrenCustom">
-                      <a href="/Digital_Agency" className="nav-link">Custom</a>
-                    </li> */}
-
-                    <li className="menu-item">
-                      <Link href="/contactUs" className="nav-link">Contact</Link>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-
-              {/* <div className="header-right-nav">
-                <ul>
-                  <li className="bar-item">
-                    <Link href="">
-                      <img src="assets/images/dot.png" alt="dot" />
-                    </Link>
-                  </li>
-
-                  <li className="navbar-toggle-btn">
-                    <div className="navbar-toggler">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </li>
-                </ul>
-              </div> */}
-
-            </div>
+          <div className="top-left">
+            <span>👤 24x7 Technical Support</span>
+            <span className="divider">-</span>
+            <span>✉ laxenix@tech.in</span>
+            <span className="divider">|</span>
+            <span>📞 +91 73574 44352</span>
           </div>
+
+          <div className="top-right">
+            <a href="/contactUs" className="top-contact-btn">
+              👤 Contact
+            </a>
+          </div>
+
         </div>
-      </header>
-    );
+      </div> */}
+    <header className={`site-header ${scrolled ? "scrolled" : ""}`}>
+       <div className="site-header-inner">
+
+        {/* Logo */}
+        <Link href="/" className="brand-box">
+          <img src="/assets/images/logo/lax-logo.png" alt="Logo" />
+        </Link>
+
+        {/* Navigation */}
+        <nav className="site-nav">
+          <ul className="site-menu">
+
+            <li><a href="/">Home</a></li>
+            <li><a href="/AboutUs">About Us</a></li>
+
+            <li className="has-dropdown">
+              <a href="#">Services</a>
+              <ul className="submenu">
+                <li><a href="/OurService">Our Services</a></li>
+                <li><a href="/Service_details">Services Detail</a></li>
+              </ul>
+            </li>
+
+            <li className="has-dropdown">
+              <a href="#">Portfolio</a>
+              <ul className="submenu">
+                <li><a href="/Our_profolio">Our Portfolio</a></li>
+                <li><a href="/Our_portfolio_details">Portfolio Detail</a></li>
+              </ul>
+            </li>
+
+            <li className="has-dropdown">
+              <a href="#">Blog</a>
+              <ul className="submenu">
+                <li><a href="/Our_blog">Our Blog</a></li>
+                <li><a href="/Blog_details">Blog Detail</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/contactUs">Contact</a></li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+    </>
+  );
 }
