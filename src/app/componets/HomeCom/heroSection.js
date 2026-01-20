@@ -56,14 +56,12 @@ export default function HeroBanner() {
         <div className="row">
           <div className="col-xl-8 col-lg-12">
             <div className="hero-content">
-              <h1 className="wow fadeInUp" data-wow-delay=".5s">
+            <h1 className="wow fadeInUp" data-wow-delay=".5s">
                 Brand, Design <br /> & Development <br /> Agency
               </h1>
 
               <p className="wow fadeInDown" data-wow-delay="1s">
-                Sit amet consectetur adipiscing elit sed do eiusmod tem
-                porincididunt ut labore et dolore magna aliqua. Quis psum
-                suspendisse ultrices gravida commodo viverra
+          From strategy and design to development and marketing, we craft digital experiences that drive real business results.
               </p>
 
               <a

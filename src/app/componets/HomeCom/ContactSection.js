@@ -12,10 +12,8 @@ export default function ContactSection() {
               </h2>
 
               <p>
-                Sed ut perspiciatis unde omnis iste natus error voluptatem
-                accusantium doloremque laudan tium, totam rem aperiam, eaque ipsa
-                quae abillo <span>inventore veritatis</span> et quasi architecto
-                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                Share your ideas with us, and our team will help turn them into impactful <span>digital solutions</span> designed to grow your business.
+               
               </p>
 
               <div className="row">
@@ -29,7 +27,7 @@ export default function ContactSection() {
                     <div className="info">
                       <h4>
                         <a href="mailto:support@gmail.com">
-                          support@gmail.com
+                           laxzenix@gmail.com
                         </a>
                       </h4>
                     </div>
@@ -45,7 +43,7 @@ export default function ContactSection() {
                     </div>
                     <div className="info">
                       <h4>
-                        <a href="tel:+0123456789">+012 (345) 67 89</a>
+                        <a href="tel:+0123456789">+91 7357444352</a>
                       </h4>
                     </div>
                   </div>

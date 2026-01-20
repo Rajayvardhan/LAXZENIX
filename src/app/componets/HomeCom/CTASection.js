@@ -13,11 +13,11 @@ export default function CTASection() {
                                 <div className="section-title section-title-white mb-55">
                                     <span className="sub-title st-one">Let’s Work</span>
                                     <h2>
-                                        Experience & innovative{" "}
-                                        <span className="fill-text">solutions</span> for{" "}
-                                        <span className="fill-text">creative</span> design &
-                                        development{" "}
-                                        <span className="fill-text">agency</span>
+                                        Experience innovative,
+{" "}
+                                        <span className="fill-text">result-driven solutions</span> for{" "}
+                                        <span className="fill-text">a creative design and development </span> agency built to grow your .{" "}
+                                        <span className="fill-text">Brand</span>
                                     </h2>
                                 </div>
 

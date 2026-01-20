@@ -6,8 +6,10 @@ export default function PortfolioSection() {
           <div className="col-lg-8">
             <div className="section-title mb-45 wow fadeInUp">
               <span className="sub-title st-one">Latest Work</span>
-              <h2>Professional Experience</h2>
-              <p>Professional Design Agency to provide solutions</p>
+              <h2>Our Recent Projects & Creative Experience
+
+</h2>
+              <p>We help brands transform ideas into impactful digital experiences through strategy, design, and technology.</p>
             </div>
           </div>
         </div>

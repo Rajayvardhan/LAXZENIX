@@ -16,7 +16,8 @@ export default function TestimonialSection() {
             <div className="section-title section-title-white mb-50 wow fadeInLeft">
               <span className="sub-title st-one">Testimonials</span>
               <h2>What Our Client’s About Us</h2>
-              <p>Professional Design Agency to provide solutions</p>
+              <p>Real feedback from businesses who trust us for creative design, development, and digital solutions.
+</p>
             </div>
           </div>
         </div>
@@ -37,13 +38,11 @@ export default function TestimonialSection() {
                 <div className="testimonial-content">
                   <i className="flaticon-quotation"></i>
                   <h3>
-                    Sit amet consectetur adipiscing elit sed do eiusmod
-                    temporincde idunt ut labore et dolore magnas aliqua.
-                    Quis ipsum suspendissey sltrices gravida. Risus commodo
-                    verra maecenas lacusvel.
+                 Laxzenix truly understands branding and design. Their team delivered a clean, modern website that perfectly reflects our brand vision. The process was smooth and professional from start to finish.
+
                   </h3>
                   <div className="author-title">
-                    <h4>Dustin A. McPherson</h4>
+                    <h4>Sunil grover</h4>
                     <p className="position">Senior Manager</p>
                   </div>
                 </div>
@@ -53,14 +52,11 @@ export default function TestimonialSection() {
                 <div className="testimonial-content">
                   <i className="flaticon-quotation"></i>
                   <h3>
-                    Sit amet consectetur adipiscing elit sed do eiusmod
-                    temporincde idunt ut labore et dolore magnas aliqua.
-                    Quis ipsum suspendissey sltrices gravida. Risus commodo
-                    verra maecenas lacusvel.
+                    What we liked most was their creative approach and attention to detail. From design to development, everything was well-planned and executed on time
                   </h3>
                   <div className="author-title">
-                    <h4>Dustin A. McPherson</h4>
-                    <p className="position">Senior Manager</p>
+                    <h4>Devika Chhipa</h4>
+                    <p className="position">Prodcut Manager</p>
                   </div>
                 </div>
               </div>
@@ -69,14 +65,11 @@ export default function TestimonialSection() {
                 <div className="testimonial-content">
                   <i className="flaticon-quotation"></i>
                   <h3>
-                    Sit amet consectetur adipiscing elit sed do eiusmod
-                    temporincde idunt ut labore et dolore magnas aliqua.
-                    Quis ipsum suspendissey sltrices gravida. Risus commodo
-                    verra maecenas lacusvel.
+                 Working with Laxzenix felt more like a partnership than a service. They listened to our ideas, suggested improvements, and delivered a digital solution that exceeded expectations.
                   </h3>
                   <div className="author-title">
-                    <h4>Dustin A. McPherson</h4>
-                    <p className="position">Senior Manager</p>
+                    <h4>Vijay Singh </h4>
+                    <p className="position">CTO</p>
                   </div>
                 </div>
               </div>
@@ -85,14 +78,11 @@ export default function TestimonialSection() {
                 <div className="testimonial-content">
                   <i className="flaticon-quotation"></i>
                   <h3>
-                    Sit amet consectetur adipiscing elit sed do eiusmod
-                    temporincde idunt ut labore et dolore magnas aliqua.
-                    Quis ipsum suspendissey sltrices gravida. Risus commodo
-                    verra maecenas lacusvel.
+                   Highly impressed with their design quality and technical expertise. The team is responsive, creative, and focused on delivering real value.
                   </h3>
                   <div className="author-title">
-                    <h4>Dustin A. McPherson</h4>
-                    <p className="position">Senior Manager</p>
+                    <h4>Niranjan </h4>
+                    <p className="position">Founder of kuberyog</p>
                   </div>
                 </div>
               </div>

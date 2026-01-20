@@ -29,22 +29,22 @@ export default function AboutSection() {
               <div className="section-title mb-15">
                 <span className="sub-title st-one">About Us</span>
                 <h2>
-                  We’re Creative <br />
-                  Agency Since 1993
+             We’re a Creative
+ <br />
+                   Digital Agency
                 </h2>
               </div>
 
               <h4>Professional Design Agency to provide solutions</h4>
 
               <p>
-                On the other hand denounce with righteous and dislike men
-                who beguile and demoralizes by the charms of pleasure thes
-                moment, so blinded by desire that they cannot
+                A results-driven digital agency focused on building strong brands and impactful digital experiences. We combine creativity, strategy, and technology to deliver solutions that help businesses grow, connect, and stand out in the digital world.
               </p>
 
               <ul className="list-style-one mb-35">
-                <li>Digital Creative Agency</li>
-                <li>Professional Problem Solutions</li>
+                <li>Digital Creative Agency
+</li>
+                <li>Professional Problem-Solving</li>
                 <li>Web Design & Development</li>
               </ul>
 

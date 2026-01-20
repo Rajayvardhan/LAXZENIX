@@ -6,8 +6,9 @@ export default function ServiceSection() {
                     <div className="col-lg-8">
                         <div className="section-title text-center mb-55 wow fadeInUp">
                             <span className="sub-title st-one">Services</span>
-                            <h2>Creative Design Solutions</h2>
-                            <p>Professional Design Agency to provide solutions</p>
+                  
+                            <h2>Smart Design. Powerful Digital Solutions.</h2>
+                            <p>A full-service digital agency delivering creativity, strategy, and technology under one roof.</p>
                         </div>
                     </div>
                 </div>
@@ -26,9 +27,9 @@ export default function ServiceSection() {
                                     <a href="/service-details">Strategy</a>
                                 </h3>
                                 <ul className="list-style-two">
-                                    <li>Product Management</li>
+                                    <li>Product Planning</li>
                                     <li>MVP Definition</li>
-                                    <li>Product Strategy</li>
+                                    <li>Product Roadmap</li>
                                 </ul>
                                 <a href="/service-details" className="btn-link">
                                     Read More
@@ -50,9 +51,11 @@ export default function ServiceSection() {
                                     <a href="/service-details">Product Design</a>
                                 </h3>
                                 <ul className="list-style-two">
-                                    <li>Product Management</li>
-                                    <li>MVP Definition</li>
-                                    <li>Product Strategy</li>
+                                    <li>UX & UI Design
+
+</li>
+                                    <li>MVP Planning</li>
+                                    <li>Design-Led Strategy</li>
                                 </ul>
                                 <a href="/service-details" className="btn-link">
                                     Read More
@@ -74,9 +77,12 @@ export default function ServiceSection() {
                                     <a href="/service-details">Development</a>
                                 </h3>
                                 <ul className="list-style-two">
-                                    <li>Product Management</li>
-                                    <li>MVP Definition</li>
-                                    <li>Product Strategy</li>
+                                    <li>Custom Web & App Development
+
+
+</li>
+                                    <li>MVP Development</li>
+                                    <li>Scalable Solutions</li>
                                 </ul>
                                 <a href="/service-details" className="btn-link">
                                     Read More

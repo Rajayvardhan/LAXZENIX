@@ -10,7 +10,7 @@ export default function BlogSection() {
             >
               <span className="sub-title st-one">Articles News</span>
               <h2>Latest News & Blogs</h2>
-              <p>Professional Design Agency to provide solutions</p>
+             <p>Insights, stories, and updates crafted by our team to help brands stay ahead.</p>
             </div>
           </div>
         </div>

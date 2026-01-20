@@ -22,7 +22,7 @@ export default function Home() {
       <CTASection />
       <CounterSection />
       <TestimonialSection />
-      <TeamSection />
+    
       <ContactSection />
       <BlogSection />
     </>

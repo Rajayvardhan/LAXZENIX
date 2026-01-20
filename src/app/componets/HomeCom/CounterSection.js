@@ -6,8 +6,10 @@ export default function CounterSection() {
                     <div className="col-lg-6">
                         <div className="section-title text-center mb-55 wow fadeInUp">
                             <span className="sub-title st-one">Agency Statistics</span>
-                            <h2>Why People’s Like Us</h2>
-                            <p>Professional Design Agency to provide solutions</p>
+                            <h2>Why Clients Trust Laxzenix
+
+</h2>
+                            <p>A creative digital agency known for strategic thinking, quality execution, and measurable results.</p>
                         </div>
                     </div>
                 </div>
