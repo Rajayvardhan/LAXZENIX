@@ -12,9 +12,9 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Pixlab - Creative Agency</title>
+        <title>LAXZENIX - Creative Support</title>
 
-        <link rel="icon" href="/assets/images/logo/lax-fav.png" />
+        <link rel="icon" href="/assets/image/lax-fav.ico" />
 
         {/* CSS */}
         <link rel="stylesheet" href="/assets/vendor/animate.css" />

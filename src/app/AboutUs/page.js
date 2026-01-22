@@ -2,7 +2,7 @@ import AboutAreaV2 from "../componets/DigitalAgencyComp/DigiAboutSection";
 import StudioPricing from "../componets/StudioComp/pricing";
 import StudioAboutV4 from "../componets/StudioComp/studioAboutV4";
 import StudioServicesV3 from "../componets/StudioComp/studioServicesV3";
-
+import Image from "next/image";
 export default function AboutUsPage() {
     return (
         <>
@@ -294,77 +294,97 @@ export default function AboutUsPage() {
             </section>
             <section className="service-area bototm-minus-200">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                            <div
-                                className="service-item service-style-three mb-40 wow fadeInUp"
-                                data-wow-delay=".15s"
-                            >
-                                <div className="icon">
-                                    <i className="flaticon-strategy"></i>
-                                </div>
-                                <div className="text">
-                                    <h3 className="title">
-                                        <a href="service-details.html">Strategy</a>
-                                    </h3>
-                                    <ul className="list-style-two">
-                                        <li>Product Management</li>
-                                        <li>MVP Definition</li>
-                                        <li>Product Strategy</li>
-                                    </ul>
-                                    <a href="services.html" className="btn-link">
-                                        Read More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                            <div
-                                className="service-item service-style-three mb-40 wow fadeInUp"
-                                data-wow-delay=".20s"
-                            >
-                                <div className="icon">
-                                    <i className="flaticon-design"></i>
-                                </div>
-                                <div className="text">
-                                    <h3 className="title">
-                                        <a href="service-details.html">Product Design</a>
-                                    </h3>
-                                    <ul className="list-style-two">
-                                        <li>Product Management</li>
-                                        <li>MVP Definition</li>
-                                        <li>Product Strategy</li>
-                                    </ul>
-                                    <a href="services.html" className="btn-link">
-                                        Read More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                            <div
-                                className="service-item service-style-three mb-40 wow fadeInUp"
-                                data-wow-delay=".25s"
-                            >
-                                <div className="icon">
-                                    <i className="flaticon-source-code"></i>
-                                </div>
-                                <div className="text">
-                                    <h3 className="title">
-                                        <a href="service-details.html">Development</a>
-                                    </h3>
-                                    <ul className="list-style-two">
-                                        <li>Product Management</li>
-                                        <li>MVP Definition</li>
-                                        <li>Product Strategy</li>
-                                    </ul>
-                                    <a href="services.html" className="btn-link">
-                                        Read More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                     <div className="row justify-content-center">
+                                       <div className="col-lg-4 col-md-6 col-sm-12">
+                                           <div
+                                               className="service-item service-style-one mb-40 wow fadeInDown"
+                                               data-wow-delay=".3s"
+                                               style={{ minHeight: "70vh" }}
+                                           >
+                                               <div className="icon">
+                                                   <Image
+                                                       src="/assets/image/strategy-icon.jpg"
+                                                       width={80}
+                                                       height={80}
+                                                       alt="Strategy Icon"
+                                                   />
+                                               </div>
+                                               <div className="text">
+                                                   <h3 className="title">
+                                                       <a href="/service-details">Strategy</a>
+                                                   </h3>
+                                                   <ul className="list-style-two">
+                                                       <li>Product Planning</li>
+                                                       <li>MVP Definition</li>
+                                                       <li>Product Roadmap</li>
+                                                   </ul>
+                                                   <a href="/service-details" className="btn-link">
+                                                       Read More
+                                                   </a>
+                                               </div>
+                                           </div>
+                                       </div>
+                   
+                                       <div className="col-lg-4 col-md-6 col-sm-12">
+                                           <div
+                                               className="service-item service-style-one mb-40 wow fadeInDown"
+                                               data-wow-delay=".5s"
+                                               style={{ minHeight: "70vh" }}
+                                           >
+                                               <div className="icon">
+                                                  <Image
+                                                       src="/assets/image/product-design-icon.png"
+                                                       width={80}
+                                                       height={80}
+                                                       alt="Strategy Icon"
+                                                   />
+                                               </div>
+                                               <div className="text">
+                                                   <h3 className="title">
+                                                       <a href="/service-details">Product Design</a>
+                                                   </h3>
+                                                   <ul className="list-style-two">
+                                                       <li>UX & UI Design</li>
+                                                       <li>MVP Planning</li>
+                                                       <li>Design-Led Strategy</li>
+                                                   </ul>
+                                                   <a href="/service-details" className="btn-link">
+                                                       Read More
+                                                   </a>
+                                               </div>
+                                           </div>
+                                       </div>
+                   
+                                       <div className="col-lg-4 col-md-6 col-sm-12">
+                                           <div
+                                               className="service-item service-style-one mb-40 wow fadeInDown"
+                                               data-wow-delay=".7s"
+                                               style={{ minHeight: "70vh" }}
+                                           >
+                                               <div className="icon">
+                                                   <Image
+                                                       src="/assets/image/dev-icon.png"
+                                                       width={80}
+                                                       height={80}
+                                                       alt="Strategy Icon"
+                                                   />
+                                               </div>
+                                               <div className="text">
+                                                   <h3 className="title">
+                                                       <a href="/service-details">Development</a>
+                                                   </h3>
+                                                   <ul className="list-style-two">
+                                                       <li>Custom Web & App Development</li>
+                                                       <li>MVP Development</li>
+                                                       <li>Scalable Solutions</li>
+                                                   </ul>
+                                                   <a href="/service-details" className="btn-link">
+                                                       Read More
+                                                   </a>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
                 </div>
             </section>
             <section className="fancy-text-block light-gray-bg pb-90 fancy-text-block-v1">
@@ -373,7 +393,7 @@ export default function AboutUsPage() {
                         <div className="col-lg-6">
                             <div className="text-wrapper mb-40 fadeInLeft">
                                 <div className="section-title mb-25">
-                                    <span className="sub-title st-one">How We Are</span>
+                                    <span className="sub-title st-one">What We DO</span>
                                     <h2>Build Grow & Manage Your Brand Identitys</h2>
                                     <p className="blue-dark">
                                         Professional Design Agency to provide solutions
@@ -740,181 +760,6 @@ export default function AboutUsPage() {
                     </div>
                 </div>
             </section>
-            <footer className="footer-area page-footer light-gray-bg">
-                <div className="container">
-                    <div className="footer-top pt-75 pb-40">
-                        <div className="row align-items-center">
-                            <div className="col-md-6">
-                                <div className="footer-logo mb-40 wow fadeInLeft">
-                                    <img
-                                        src="assets/images/logo/footer-logo-1.png"
-                                        alt="Brand Logo"
-                                    />
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="text-wrapper mb-40 wow fadeInRight">
-                                    <h3>
-                                        Modern Solutionsd For
-                                        <span className="blue-dark">Creative Agency</span>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="footer-widget pt-70 pb-40">
-                        <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <div
-                                    className="widget footer-nav-widget mb-40 wow fadeInUp"
-                                    data-wow-delay=".15s"
-                                >
-                                    <h4 className="widget-title">Services</h4>
-                                    <ul className="widget-nav">
-                                        <li>
-                                            <a href="services.html">UX/UI Design</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Web Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">SEO Optimization</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Product Design</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Logo Design</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Brand Design</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12">
-                                <div
-                                    className="widget footer-nav-widget mb-40 wow fadeInUp"
-                                    data-wow-delay=".20s"
-                                >
-                                    <h4 className="widget-title">Links</h4>
-                                    <ul className="widget-nav">
-                                        <li>
-                                            <a href="services.html">About Agency</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Latest News & Blog</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Meet The Team</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Popular Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Testimonials</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Need a Career?</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-2 col-md-6 col-sm-12">
-                                <div
-                                    className="widget social-widget mb-40 wow fadeInUp"
-                                    data-wow-delay=".25s"
-                                >
-                                    <h4 className="widget-title">Follow</h4>
-                                    <ul className="social-nav">
-                                        <li>
-                                            <a href="about.html#">
-                                                <i className="fab fa-dribbble"></i>Dribbble
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="about.html#">
-                                                <i className="fab fa-instagram"></i>Instagram
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="about.html#">
-                                                <i className="fab fa-twitter"></i>Twitter
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="about.html#">
-                                                <i className="fab fa-behance"></i>Behance
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="about.html#">
-                                                <i className="fab fa-facebook-f"></i>Facebook
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="about.html#">
-                                                <i className="fab fa-medium-m"></i>Medium
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12">
-                                <div
-                                    className="widget newsletter-widget mb-40 wow fadeInUp"
-                                    data-wow-delay=".30s"
-                                >
-                                    <div className="newsletter-content">
-                                        <h3>Subscribe Our Newsletter</h3>
-                                        <p>
-                                            Natus errorsit voluptatem accusa dolore mque quae
-                                            <a href="about.html#">abillo inventore verita</a> achitec
-                                            beatae vitae dicta sunt explicabo.
-                                        </p>
-                                        <form>
-                                            <div className="form_group">
-                                                <input
-                                                    type="email"
-                                                    className="form_control"
-                                                    placeholder="Email Address"
-                                                    name="email"
-                                                    required
-                                                />
-                                                <button className="main-btn">Sign Up</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="footer-copyright">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="copyright-text">
-                                    <p>&copy; 2022. All rights reserved design by Webtend</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="footer-nav float-lg-right">
-                                    <ul>
-                                        <li>
-                                            <a href="services.html">Setting & Privacy </a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Faqs</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">Services</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </>
     );
 }

@@ -1,3 +1,5 @@
+import { PiStrategy } from "react-icons/pi";
+
 export default function ServiceAreaV1() {
     return (
         <section className="service-area service-area-v1">
@@ -20,7 +22,7 @@ export default function ServiceAreaV1() {
                                 data-wow-delay=".15s"
                             >
                                 <div className="icon">
-                                    <i className="flaticon-strategy"></i>
+                                   <PiStrategy className="flaticon-strategy"/>
                                 </div>
                                 <div className="text">
                                     <h3 className="title">
