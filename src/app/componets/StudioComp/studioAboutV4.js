@@ -6,7 +6,7 @@ export default function StudioAboutV4() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="img-holder mb-50 wow fadeInLeft">
-                                <img src="assets/images/about/img-6.png" alt="" />
+                                <img src="/assets/image/about2-img.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">

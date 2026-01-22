@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 export default function CounterSection() {
     return (
         <section className="counter-area counter-area-v1 pt-240 pb-90">
@@ -8,7 +11,7 @@ export default function CounterSection() {
                             <span className="sub-title st-one">Agency Statistics</span>
                             <h2>Why Clients Trust Laxzenix
 
-</h2>
+                            </h2>
                             <p>A creative digital agency known for strategic thinking, quality execution, and measurable results.</p>
                         </div>
                     </div>
@@ -21,13 +24,18 @@ export default function CounterSection() {
                             data-wow-delay=".2s"
                         >
                             <div className="icon">
-                                <i className="flaticon-start-up"></i>
+                                <Image
+                                    src="/assets/image/project-complete.png"
+                                    width={80}
+                                    height={80}
+                                    alt="Strategy Icon"
+                                />
                             </div>
                             <div className="text">
                                 <h2 className="number">
                                     <span>256</span>+
                                 </h2>
-                                <p>Project Complate</p>
+                                <p>Project Complete</p>
                             </div>
                         </div>
                     </div>
@@ -38,13 +46,18 @@ export default function CounterSection() {
                             data-wow-delay=".3s"
                         >
                             <div className="icon">
-                                <i className="flaticon-creativity"></i>
+                                <Image
+                                    src="/assets/image/project-complete.png"
+                                    width={80}
+                                    height={80}
+                                    alt="Strategy Icon"
+                                />
                             </div>
                             <div className="text">
                                 <h2 className="number">
                                     <span>783</span>+
                                 </h2>
-                                <p>Project Complate</p>
+                                <p>Project Complete</p>
                             </div>
                         </div>
                     </div>
@@ -55,7 +68,12 @@ export default function CounterSection() {
                             data-wow-delay=".4s"
                         >
                             <div className="icon">
-                                <i className="flaticon-medal"></i>
+                                <Image
+                                    src="/assets/image/award-icon.png"
+                                    width={80}
+                                    height={80}
+                                    alt="Strategy Icon"
+                                />
                             </div>
                             <div className="text">
                                 <h2 className="number">
@@ -72,7 +90,12 @@ export default function CounterSection() {
                             data-wow-delay=".5s"
                         >
                             <div className="icon">
-                                <i className="flaticon-technical-support"></i>
+                                <Image
+                                    src="/assets/image/exp-icon.png"
+                                    width={80}
+                                    height={80}
+                                    alt="Strategy Icon"
+                                />
                             </div>
                             <div className="text">
                                 <h2 className="number">

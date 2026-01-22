@@ -1615,7 +1615,7 @@ button {
 }
 .page-banner .page-banner-img{
     position: relative;
-    margin-bottom: -250px;
+    margin-bottom: -100px;
 }
 .page-banner .page-banner-img img{
     border-radius: 9px;
@@ -1903,7 +1903,7 @@ button {
 .service-area-v2 .service-wrapper{
     position: relative;
     z-index: 2;
-    margin-top: -150px;
+    margin-top: 5px;
     padding: 80px 90px 50px;
     border-radius: 7px;
 }
