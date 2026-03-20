@@ -29,9 +29,9 @@ export default function AboutSection() {
               <div className="section-title mb-15">
                 <span className="sub-title st-one">About Us</span>
                 <h2>
-             We’re a Creative
- <br />
-                   Digital Agency
+                  We’re a Creative
+                  <br />
+                  Digital Agency
                 </h2>
               </div>
 
@@ -43,7 +43,7 @@ export default function AboutSection() {
 
               <ul className="list-style-one mb-35">
                 <li>Digital Creative Agency
-</li>
+                </li>
                 <li>Professional Problem-Solving</li>
                 <li>Web Design & Development</li>
               </ul>

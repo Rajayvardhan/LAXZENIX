@@ -17,6 +17,9 @@
     "sweetalert2": "^11.26.17"
   },
   "devDependencies": {
-    "babel-plugin-react-compiler": "1.0.0"
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
+    "babel-plugin-react-compiler": "1.0.0",
+    "typescript": "5.9.3"
   }
 }

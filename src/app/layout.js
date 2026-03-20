@@ -13,7 +13,10 @@ export default function RootLayout({ children }) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>LAXZENIX - Creative Support</title>
-
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+  rel="stylesheet"
+/>
         <link rel="icon" href="/assets/image/lax-fav.ico" />
 
         {/* CSS */}
@@ -24,12 +27,12 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className="gradient-body">
-        <div className="preloader">
+        {/* <div className="preloader">
           <div className="loader">
             <div className="pre-shadow"></div>
             <div className="pre-box"></div>
           </div>
-        </div>
+        </div> */}
         <HeaderNewSection />
         {children}
         {/* ===== JS (ORDER IS CRITICAL) ===== */}
@@ -51,6 +54,6 @@ export default function RootLayout({ children }) {
         </a> 
         <Footer />
       </body>
-    </html >
+    </html>
   );
 }

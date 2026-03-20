@@ -16,6 +16,81 @@ export default function Header() {
   const toggleMenu = (name) => {
     setOpenMenu(openMenu === name ? null : name);
   };
+  const servicesData = [
+    {
+      title: "Digital Marketing Services",
+      link: "/OurService/digital-marketing",
+      items: [
+        { name: "SEO", link: "/OurService/seo" },
+        { name: "Social Media Optimization", link: "/OurService/social-media-optimization" },
+        { name: "Local SEO OurService", link: "/OurService/local-seo" },
+        { name: "Content Marketing OurService", link: "/OurService/content-marketing" },
+        { name: "Website Optimization", link: "/OurService/website-optimization" },
+        { name: "Link Building OurService", link: "/OurService/link-building" },
+      ],
+    },
+    {
+      title: "API OurService",
+      link: "/Ourservice/api-Ourservice",
+      items: [
+        { name: "API Development", link: "/Ourservice/api-development" },
+        { name: "API Integration", link: "/Ourservice/api-integration" },
+      ],
+    },
+    {
+      title: "Website Design And Development",
+      link: "/OurService/website-design-and-development",
+      items: [
+        { name: "Modern & Responsive Website Design", link: "/OurService/web-design" },
+        { name: "E-Commerce Website Development", link: "/OurService/ecommerce-development" },
+        { name: "Custom CRM Solutions", link: "/OurService/crm-solutions" },
+        { name: "On Demand Software", link: "/OurService/software-development" },
+      ],
+    },
+    {
+      title: "Performance Marketing",
+      link: "/OurService/performance-marketing",
+      items: [
+        { name: "Performance Marketing", link: "/OurService/performance-marketing" },
+      ],
+    },
+    {
+      title: "Fintech Solutions",
+      link: "/OurService/fintech-solutions",
+      items: [
+        { name: "Digital Banking Solutions", link: "/OurService/digital-banking" },
+        { name: "Payment Gateway Integration", link: "/OurService/payment-gateway" },
+        { name: "Wallet & UPI Integration", link: "/OurService/wallet-upi" },
+        { name: "Fraud Detection & Risk Management", link: "/OurService/fraud-detection" },
+        { name: "KYC & Compliance Solutions", link: "/OurService/kyc" },
+      ],
+    },
+    {
+      title: "Mobile Application",
+      link: "/OurService/mobile-application",
+      items: [
+        { name: "Mobile App Development", link: "/OurService/mobile-app-development" },
+      ],
+    },
+    {
+      title: "Add On Service",
+      link: "/OurService/add-on-service",
+      items: [
+        { name: "Domain & Hosting Services", link: "/OurService/domain-hosting" },
+        { name: "Cloud Services (AWS)", link: "/OurService/cloud-services" },
+        { name: "Maintenance & Support", link: "/OurService/maintenance-support" },
+        { name: "IT Consulting", link: "/OurService/it-consulting" },
+        { name: "Website Redesigning", link: "/OurService/website-redesign" },
+        { name: "Website Maintenance", link: "/OurService/website-maintenance" },
+      ],
+    },
+  ];
+  const chunkedServices = [
+    servicesData.slice(0, 2),
+    servicesData.slice(2, 4),
+    servicesData.slice(4, 6),
+    servicesData.slice(6),
+  ];
 
   return (
     <>
@@ -122,12 +197,39 @@ export default function Header() {
               <li><a href="/AboutUs">About Us</a></li>
 
               {/* Services */}
-              <li className="has-dropdown">
-                <a onClick={() => toggleMenu("services")}>Services ▾</a>
-                <ul className={`submenu rh-sub ${openMenu === "services" ? "rh-show" : ""}`}>
-                  <li><a href="/OurService">Our Services</a></li>
-                  <li><a href="/Service_details">Services Detail</a></li>
-                </ul>
+              <li className="has-dropdown mega-parent">
+                <a onClick={() => toggleMenu("services")}>
+                  Services ▾
+                </a>
+
+                <div
+                  className={`mega-menu ${openMenu === "services" ? "rh-show" : ""
+                    }`}
+                >
+                  <div className="mega-grid">
+                    {chunkedServices.map((column, colIndex) => (
+                      <div className="mega-col" key={colIndex}>
+                        {column.map((section, secIndex) => (
+                          <div key={secIndex}>
+                            <h6 className={secIndex !== 0 ? "mt-4" : ""}>
+                              <Link href={section.link}>
+                                {section.title}
+                              </Link>
+                            </h6>
+
+                            <ul>
+                              {section.items.map((item, i) => (
+                                <li key={i}>
+                                  <Link href={item.link}>{item.name}</Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </li>
 
               {/* Portfolio */}
