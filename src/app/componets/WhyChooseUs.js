@@ -1,6 +1,6 @@
 export default function WhyChooseUs({ image, title, highlight, description, points, upperdescription }) {
     return (
-        <div style={{ backgroundColor: "#e2ebf8" }} className="py-5">
+        <div style={{ backgroundColor: "#fff" }} className="py-5">
             <div className="container py-5">
 
                 <div className="row align-items-center g-5">

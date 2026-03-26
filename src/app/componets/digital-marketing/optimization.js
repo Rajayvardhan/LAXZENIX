@@ -15,12 +15,12 @@ export default function Optimization({
                                 {subtitle && (
                                     <span className="sub-title st-one">{subtitle}</span>
                                 )}
-                                {title && <h2>{title}</h2>}
+                                {title && <h2 style={{fontSize:"25px"}}>{title}</h2>}
                             </div>
                         )}
 
                         {services.map((item, index) => (
-                            <div key={index} className="col-lg-4 col-md-6 col-sm-12">
+                            <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-3">
                                 <div
                                     className="service-item service-style-three mb-30 wow fadeInUp h-100"
                                     data-wow-delay={`${0.15 + index * 0.05}s`}
