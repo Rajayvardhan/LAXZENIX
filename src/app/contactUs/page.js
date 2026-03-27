@@ -71,7 +71,7 @@ export default function ContactUs() {
                     <div className="about-us">
                         <h5 className="panel-widget-title">About Us</h5>
                         <p>
-                            We are a team of designers and developers that create high quality HTML5 templates and
+                            We are a Team of designers and developers that create high quality HTML5 templates and
                             web design resources for the creative community.
                         </p>
                     </div>
