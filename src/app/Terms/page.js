@@ -5,7 +5,7 @@ export default function PrivacyPolicy() {
   return (
     <div className="container py-10 px-4">
       <div className="max-w-7xl mx-auto p-8 rounded-2xl shadow-md">
-        <h2 className="text-center mt-20 text-xl font-bold mb-4">Privacy Policy</h2>
+        <h2 className="text-center mt-20 text-xl font-bold mb-4">Terms Of Use</h2>
         <p className="text-sm text-gray-500 mb-6">Last Updated: [Insert Date]</p>
 
         <section className="mb-6">
