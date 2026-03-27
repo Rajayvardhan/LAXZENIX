@@ -542,7 +542,7 @@ export default function ServiceDetailsPage() {
               <div className="col-md-6">
                 <div className="text-wrapper mb-40 wow fadeInRight">
                   <h3>
-                    Modern Solutionsd For
+                    Modern Solutions For
                     <span className="blue-dark">Creative Agency</span>
                   </h3>
                 </div>

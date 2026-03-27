@@ -17,7 +17,7 @@ export default function Footer() {
                         <div className="col-md-6">
                             <div className="text-wrapper mb-40 wow fadeInRight">
                                 <h3>
-                                    Modern Solutionsd For{" "}
+                                    Modern Solutions For{" "}
                                     <span className="blue-dark">Creative Agency</span>
                                 </h3>
                             </div>
@@ -35,7 +35,7 @@ export default function Footer() {
                                 <h4 className="widget-title">Services</h4>
                                 <ul className="widget-nav">
                                     <li><a href="/services">UX/UI Design</a></li>
-                                    <li><a href="/services">Web Development</a></li>
+                                    <li><a href="/OurService/website-design-and-development">Web Development</a></li>
                                     <li><a href="/services">SEO Optimization</a></li>
                                     <li><a href="/services">Product Design</a></li>
                                     <li><a href="/services">Logo Design</a></li>
@@ -112,22 +112,18 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-copyright">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div className="copyright-text">
-                                <p>© 2022. All rights reserved design by Webtend</p>
-                            </div>
-                        </div>
+                    <div className="flex mb-5">
+                      
 
-                        <div className="col-lg-6">
+                       
                             <div className="footer-nav float-lg-right">
                                 <ul>
-                                    <li><a href="/service-details">Setting & Privacy</a></li>
-                                    <li><a href="/faqs">Faqs</a></li>
-                                    <li><a href="/services">Services</a></li>
+                                    <li><a href="/service-details">Privacy Policy</a></li>
+                                    <li><a href="/faqs">Terms & Conditions</a></li>
+                                    <li><a href="/services">Refund Policy</a></li>
                                 </ul>
                             </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
