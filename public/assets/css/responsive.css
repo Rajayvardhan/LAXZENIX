@@ -34,10 +34,25 @@
     .fancy-text-block-v1 .img-holder .shape.shape.shape-two {
         display: none;
     }
+    .navigation-style-v3 .primary-menu .site-branding .lang-dropdown:before {
+        margin-right: 20px;
+    }
+    .navigation-style-v3 .primary-menu .site-branding .lang-dropdown {
+        margin-left: 20px;
+    }
 }
 
 @media (max-width: 1199px) {
-
+    .hero-banner-v2 .hero-img .hero-shape,
+    .footer-gradient-bg .shape{
+        display: none;
+    }
+    .header-right-nav ul li.navbar-toggle-btn{
+        display: block;
+    }
+    .header-navigation .main-menu ul > li.has-children > a:before{
+        display: none;
+    }
     .navigation-style-v3 .container-fluid,
     .navigation-style-v2 .container-fluid,
     .navigation-style-v1 .container-fluid{
@@ -432,9 +447,15 @@
     .navigation-style-v3 .primary-menu .site-branding .lang-dropdown:before{
         margin-right: 15px;
     }
+    .navigation-style-v3 .primary-menu .site-branding .lang-dropdown{
+        margin-left: 15px;
+    }
     .hero-banner-v3 .hero-content h1{
         font-size: 40px;
         line-height: 45px;
+    }
+    .navigation-style-v3 .header-right-nav ul li.nav-button {
+        display: none;
     }
     .testimonial-area-v4 .testimonial-item {
         padding: 60px 30px;;
