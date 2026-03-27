@@ -86,7 +86,7 @@ export default function PortfolioSection({ limit }) {
         <div className="row g-4">
           {finalProjects.map((item, index) => (
             <div className="col-lg-4 col-md-6 mb-3" key={index}>
-              <a href={item.link} target="_blank" rel="noopener noreferrer">
+              <a href="/Our_portfolio_details" target="_blank" rel="noopener noreferrer">
                 <div className="card border-0 shadow-sm h-100 portfolio-card">
 
                   <div className="position-relative">
@@ -106,9 +106,9 @@ export default function PortfolioSection({ limit }) {
                       <small className="text-muted">{item.category}</small>
                     </div>
                     <div className="overlay d-flex align-items-center justify-content-center">
-                      <span className="text-dark fw-bold px-3 py-2" style={{textDecoration:"underline", fontSize:"12px"}}>
+                      <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-dark fw-bold px-3 py-2" style={{textDecoration:"underline", fontSize:"12px"}}>
                         View Project
-                      </span>
+                      </a>
                     </div>
 
                   </div>
