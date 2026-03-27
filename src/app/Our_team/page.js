@@ -1,166 +1,11 @@
 "use client";
 
+import Team from "../componets/HomeCom/Team";
+
 export default function OurTeamPage() {
     return (
         <>
-            {/* <header className="theme-header transparent-header">
-                <div className="header-navigation navigation-style-v1">
-                    <div className="nav-overlay"></div>
-                    <div className="container-fluid">
-                        <div className="primary-menu">
-                            <div className="site-branding">
-                                <a href="index.html" className="brand-logo">
-                                    <img src="assets/images/logo/logo-1.png" alt="Site Logo" />
-                                </a>
-                            </div>
-                            <div className="nav-menu">
-                                <div className="navbar-close">
-                                    <i className="far fa-times"></i>
-                                </div>
-                                <div className="nav-search">
-                                    <form>
-                                        <div className="form_group">
-                                            <input
-                                                type="email"
-                                                className="form_control"
-                                                placeholder="Search Here"
-                                                name="email"
-                                                required
-                                            />
-                                            <button className="search-btn">
-                                                <i className="fas fa-search"></i>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <nav className="main-menu">
-                                    <ul>
-                                        <li className="menu-item has-children">
-                                            <a href="team.html#" className="nav-link">
-                                                Demos
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li className="has-children">
-                                                    <a href="team.html#">Multipage</a>
-                                                    <ul className="sub-menu">
-                                                        <li>
-                                                            <a href="index.html">Creative Agency</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-2.html">Digital Agency</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-3.html">Design Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-3-dark.html">Design Studio Dark</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li className="has-children">
-                                                    <a href="team.html#">Onepage</a>
-                                                    <ul className="sub-menu">
-                                                        <li>
-                                                            <a href="onepage-index-1.html">Creative Agency</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="onepage-index-2.html">Digital Agency</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="onepage-index-3.html">Design Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="onepage-index-3-dark.html">
-                                                                Design Studio Dark
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item has-children">
-                                            <a href="team.html#" className="nav-link">
-                                                Services
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <a href="services.html">Our Service</a>
-                                                </li>
-                                                <li>
-                                                    <a href="service-details.html">Service Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item has-children">
-                                            <a href="team.html#" className="nav-link">
-                                                Portfolio
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <a href="projects.html">Our Portfolio</a>
-                                                </li>
-                                                <li>
-                                                    <a href="project-details.html">Portfolio Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item has-children">
-                                            <a href="team.html#" className="active nav-link">
-                                                Pages
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <a href="about.html">About Us</a>
-                                                </li>
-                                                <li>
-                                                    <a href="team.html">Our Team</a>
-                                                </li>
-                                                <li>
-                                                    <a href="team-details.html">Team Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item has-children">
-                                            <a href="team.html#" className="nav-link">
-                                                Blog
-                                            </a>
-                                            <ul className="sub-menu">
-                                                <li>
-                                                    <a href="blogs.html">Our Blog</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details.html">Blog Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item">
-                                            <a href="contact.html" className="nav-link">
-                                                Contact
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div className="header-right-nav">
-                                <ul>
-                                    <li className="bar-item">
-                                        <a href="team.html#">
-                                            <img src="assets/images/dot.png" alt="dot" />
-                                        </a>
-                                    </li>
-                                    <li className="navbar-toggle-btn">
-                                        <div className="navbar-toggler">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header> */}
+           
             <section className="page-banner bg_cover position-relative z-1">
                 <div className="shape shape-one scene">
                     <span data-depth="1">
@@ -274,294 +119,7 @@ export default function OurTeamPage() {
                     </div>
                 </div>
             </div>
-            <section className="team-area team-area-v2 pb-130">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-8">
-                            <div className="section-title text-center mb-55 wow fadeInUp">
-                                <span className="sub-title st-one">Meet Our Team</span>
-                                <h2>Experience Team Members</h2>
-                                <p>Professional Design Agency to provide solutions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div
-                                className="team-item mb-55 wow fadeInUp"
-                                data-wow-delay=".10s"
-                            >
-                                <div className="img-holder">
-                                    <img src="assets/images/team/img-1.jpg" alt="" />
-                                </div>
-                                <div className="text text-center">
-                                    <ul className="social-link">
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <h4>
-                                        <a href="team-details.html">Douglas J. Bleau</a>
-                                    </h4>
-                                    <p className="position">UX/UI Designer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div
-                                className="team-item mb-55 wow fadeInUp"
-                                data-wow-delay=".15s"
-                            >
-                                <div className="img-holder">
-                                    <img src="assets/images/team/img-2.jpg" alt="" />
-                                </div>
-                                <div className="text text-center">
-                                    <ul className="social-link">
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <h4>
-                                        <a href="team-details.html">Thomas M. Wilso</a>
-                                    </h4>
-                                    <p className="position">Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div
-                                className="team-item mb-55 wow fadeInUp"
-                                data-wow-delay=".20s"
-                            >
-                                <div className="img-holder">
-                                    <img src="assets/images/team/img-3.jpg" alt="" />
-                                </div>
-                                <div className="text text-center">
-                                    <ul className="social-link">
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <h4>
-                                        <a href="team-details.html">Robert J. Ryan</a>
-                                    </h4>
-                                    <p className="position">SEO Marketing</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div
-                                className="team-item mb-55 wow fadeInUp"
-                                data-wow-delay=".25s"
-                            >
-                                <div className="img-holder">
-                                    <img src="assets/images/team/img-4.jpg" alt="" />
-                                </div>
-                                <div className="text text-center">
-                                    <ul className="social-link">
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <h4>
-                                        <a href="team-details.html">Kenneth K. Joiner</a>
-                                    </h4>
-                                    <p className="position">UX/UI Designer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div
-                                className="team-item mb-55 wow fadeInUp"
-                                data-wow-delay=".30s"
-                            >
-                                <div className="img-holder">
-                                    <img src="assets/images/team/img-5.jpg" alt="" />
-                                </div>
-                                <div className="text text-center">
-                                    <ul className="social-link">
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <h4>
-                                        <a href="team-details.html">Harold F. Garber</a>
-                                    </h4>
-                                    <p className="position">Senior Manager</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div
-                                className="team-item mb-55 wow fadeInUp"
-                                data-wow-delay=".35s"
-                            >
-                                <div className="img-holder">
-                                    <img src="assets/images/team/img-6.jpg" alt="" />
-                                </div>
-                                <div className="text text-center">
-                                    <ul className="social-link">
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <h4>
-                                        <a href="team-details.html">Michael V. Howard</a>
-                                    </h4>
-                                    <p className="position">Junior Marketer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div
-                                className="team-item mb-55 wow fadeInUp"
-                                data-wow-delay=".40s"
-                            >
-                                <div className="img-holder">
-                                    <img src="assets/images/team/img-7.jpg" alt="" />
-                                </div>
-                                <div className="text text-center">
-                                    <ul className="social-link">
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <h4>
-                                        <a href="team-details.html">Louis R. Bellows</a>
-                                    </h4>
-                                    <p className="position">SEO Marketing</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div
-                                className="team-item mb-55 wow fadeInUp"
-                                data-wow-delay=".45s"
-                            >
-                                <div className="img-holder">
-                                    <img src="assets/images/team/img-8.jpg" alt="" />
-                                </div>
-                                <div className="text text-center">
-                                    <ul className="social-link">
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html#">
-                                                <i className="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <h4>
-                                        <a href="team-details.html">Moses M. Jenkins</a>
-                                    </h4>
-                                    <p className="position">UX/UI Designer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="button-box text-center wow fadeInUp">
-                                <a href="team.html" className="main-btn arrow-btn">
-                                    View All Member
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Team />
             <section className="team-area team-area-v3 light-gray-bg pt-130 pb-90 position-relative z-1">
                 <div className="shape shape-one scene">
                     <span data-depth="1">
@@ -599,15 +157,15 @@ export default function OurTeamPage() {
                                     <div className="team-hover">
                                         <div className="hover-content">
                                             <h3 className="title">
-                                                <a href="team-details.html">Douglas J. Bleau</a>
+                                                <a href="team-details.html">Kartik Sharma</a>
                                             </h3>
-                                            <p className="position">UX/UI Designer</p>
+                                            <p className="position">Business Analyst</p>
                                         </div>
                                         <div className="hover-content-two">
                                             <h3 className="title">
-                                                <a href="team-details.html">Douglas J. Bleau</a>
+                                                <a href="team-details.html">Kartik Sharma</a>
                                             </h3>
-                                            <p className="position">UX/UI Designer</p>
+                                            <p className="position">Business Analyst</p>
                                             <ul className="social-link">
                                                 <li>
                                                     <a href="team.html#">
@@ -640,15 +198,15 @@ export default function OurTeamPage() {
                                     <div className="team-hover">
                                         <div className="hover-content">
                                             <h3 className="title">
-                                                <a href="team-details.html">Moses M. Jenkins</a>
+                                                <a href="team-details.html">Rajyvardhan Singh</a>
                                             </h3>
-                                            <p className="position">Web Developer</p>
+                                            <p className="position">Sr. MERN Stack Developer</p>
                                         </div>
                                         <div className="hover-content-two">
                                             <h3 className="title">
-                                                <a href="team-details.html">Moses M. Jenkins</a>
+                                                <a href="team-details.html">Rajyvardhan Singh</a>
                                             </h3>
-                                            <p className="position">UX/UI Designer</p>
+                                            <p className="position">Sr. MERN Stack Developer</p>
                                             <ul className="social-link">
                                                 <li>
                                                     <a href="team.html#">
@@ -681,15 +239,15 @@ export default function OurTeamPage() {
                                     <div className="team-hover">
                                         <div className="hover-content">
                                             <h3 className="title">
-                                                <a href="team-details.html">William L. Delaney</a>
+                                                <a href="team-details.html">Rinku Yadav</a>
                                             </h3>
-                                            <p className="position">UX/UI Designer</p>
+                                            <p className="position">Server Admin</p>
                                         </div>
                                         <div className="hover-content-two">
                                             <h3 className="title">
-                                                <a href="team-details.html">William L. Delaney</a>
+                                                <a href="team-details.html">Rinku Yadav</a>
                                             </h3>
-                                            <p className="position">UX/UI Designer</p>
+                                            <p className="position">Server Admin</p>
                                             <ul className="social-link">
                                                 <li>
                                                     <a href="team.html#">

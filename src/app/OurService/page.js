@@ -1,3 +1,4 @@
+import PortfolioSection from "../componets/HomeCom/portfolioSection";
 import StudioBlog from "../componets/StudioComp/studioBlog";
 import StudioCounter from "../componets/StudioComp/studioCounter";
 import StudioPortfolio from "../componets/StudioComp/studioPortfolio";
@@ -126,7 +127,7 @@ export default function OurServicePage() {
 
       <StudioPortfolio />
       <StudioCounter />
-     
+     <PortfolioSection limit={3} />
       <StudioBlog />
       <section className="service-area service-area-v1 bototm-minus-200 position-relative z-2">
         <div className="container">
