@@ -128,7 +128,7 @@ const faqs = [
         <>
           <PageBanner
     title="Build Your Powerful Online Store"
-    image="/assets/images/website/ecomm-banner.jpg"
+    image="/assets/images/website/team.webp"
     breadcrumbs={[
         { label: "Home", link: "/" },
         { label: "Services", link: "/services" },
@@ -143,7 +143,7 @@ const faqs = [
                             <div className="img-holder-box mb-50">
                                 <div className="img-holder wow fadeInLeft">
                                     <img
-                                        src="/assets/images/website/team.webp"
+                                        src="/assets/images/website/e-banner.png"
                                         alt="Image"
                                     />
                                 </div>
