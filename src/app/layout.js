@@ -5,6 +5,7 @@ import Footer from "./componets/Footer";
 import HeaderNewSection from "./componets/HeaderNew";
 import "./globals.css";
 
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -13,11 +14,11 @@ export default function RootLayout({ children }) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>LAXZENIX - Creative Support</title>
-<link
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-  rel="stylesheet"
-/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
         <link rel="icon" href="/assets/image/lax-fav.ico" />
 
         {/* CSS */}
@@ -52,7 +53,7 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/theme.js" strategy="afterInteractive" />
         <a href="#" className="back-to-top">
           <i className="far fa-angle-up"></i>
-        </a> 
+        </a>
         <Footer />
       </body>
     </html>

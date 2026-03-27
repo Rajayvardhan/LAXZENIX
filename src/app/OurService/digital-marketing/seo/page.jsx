@@ -5,9 +5,6 @@ import WhyChooseUs from "../../../componets/WhyChooseUs";
 import React from 'react'
 import Optimization from "../../../componets/digital-marketing/optimization";
 import FAQSection from "../../../componets/Faq";
-
-
-
 export default function page() {
     const servicesData = [
         {

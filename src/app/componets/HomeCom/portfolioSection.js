@@ -1,150 +1,147 @@
-export default function PortfolioSection() {
+"use client";
+import React, { useState } from "react";
+
+const projectsData = [
+  {
+    title: "Finunique",
+    category: "Finance",
+    image: "/assets/images/portfolio/finuniques.png",
+    link: "https://www.finuniques.in/",
+  },
+  {
+    title: "Finunique Admin Panel",
+    category: "Dashboard",
+    image: "/assets/images/portfolio/finunique-admin.png",
+    link: "https://utility.finuniques.in/register",
+  },
+  {
+    title: "Digihub Tech",
+    category: "Website",
+    image: "/assets/images/portfolio/digihub.png",
+    link: "https://digihubtech.in/",
+  },
+  {
+    title: "Table Booking System",
+    category: "Web App",
+    image: "/assets/images/portfolio/tablebooking.png",
+    link: "https://www.sevenunique.com/",
+  },
+  {
+    title: "Ekero Partners",
+    category: "Finance",
+    image: "/assets/images/portfolio/ekero.png",
+    link: "https://ekeropartnersempowerwealth.com/en",
+  },
+  {
+    title: "Finunique Blogging",
+    category: "Website",
+    image: "/assets/images/portfolio/Blogging.png",
+    link: "https://www.7uniqueverfiy.com/",
+  },
+];
+
+const categories = ["All", "Website", "Web App", "Dashboard", "Finance"];
+
+export default function PortfolioSection({ limit }) {
+  const [activeTab, setActiveTab] = useState("All");
+
+  const filteredProjects =
+    activeTab === "All"
+      ? projectsData
+      : projectsData.filter((item) => item.category === activeTab);
+
+  const finalProjects = limit
+    ? filteredProjects.slice(0, limit)
+    : filteredProjects;
+
   return (
-    <section className="portfolio-area portfolio-area-v1 light-gray-bg pt-130 pb-70">
+    <section className="py-5 bg-light">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-8">
-            <div className="section-title mb-45 wow fadeInUp">
-              <span className="sub-title st-one">Latest Work</span>
-              <h2>Our Recent Projects & Creative Experience
 
-</h2>
-              <p>We help brands transform ideas into impactful digital experiences through strategy, design, and technology.</p>
-            </div>
-          </div>
+        {/* Heading */}
+        <div className="mb-4">
+          <h2 className="fw-bold">
+            Our <span className="text-primary">Tech Projects</span>
+          </h2>
+          <p className="text-muted">
+            Explore our real-world work across multiple domains.
+          </p>
         </div>
 
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="portfolio-filter-button mb-50 wow fadeInLeft">
-              <ul className="filter-btn mb-20">
-                <li data-filter="*" className="active">Show All</li>
-                <li data-filter=".cat-1">Design</li>
-                <li data-filter=".cat-2">Branding</li>
-                <li data-filter=".cat-3">Development</li>
-                <li data-filter=".cat-4">SEO</li>
-                <li data-filter=".cat-5">UX/UI Design</li>
-              </ul>
-            </div>
-          </div>
+        {/* Tabs */}
+        <div className="d-flex flex-wrap gap-2 mb-4">
+          {categories.map((cat, index) => (
+            <button
+              key={index}
+              onClick={() => setActiveTab(cat)}
+              className={`btn ${activeTab === cat ? "btn-primary" : "btn-outline-dark"
+                } mr-4 rounded-pill px-5`}
+            >
+              {cat}
+            </button>
+          ))}
         </div>
 
-        <div className="row portfolio-grid">
-          <div className="col-lg-4 col-md-6 col-sm-12 cat-1 portfolio-column cat-3">
-            <div className="portfolio-item portfolio-style-one mb-55 wow fadeInUp" data-wow-delay=".1s">
-              <div className="img-holder">
-                <img src="/assets/images/portfolio/img-1.jpg" alt="Img" />
-                <a href="/assets/images/portfolio/img-1.jpg" className="portfolio-hover img-popup">
-                  <div className="hover-content">
-                    <i className="far fa-plus"></i>
-                  </div>
-                </a>
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <a href="/project-details">Dashboard Design</a>
-                </h3>
-                <a href="/projects" className="cat-link">Creative Design</a>
-              </div>
-            </div>
-          </div>
+        {/* Grid */}
+        <div className="row g-4">
+          {finalProjects.map((item, index) => (
+            <div className="col-lg-4 col-md-6 mb-3" key={index}>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                <div className="card border-0 shadow-sm h-100 portfolio-card">
 
-          <div className="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-2 cat-4">
-            <div className="portfolio-item portfolio-style-one mb-55 wow fadeInUp" data-wow-delay=".2s">
-              <div className="img-holder">
-                <img src="/assets/images/portfolio/img-2.jpg" alt="Img" />
-                <a href="/assets/images/portfolio/img-2.jpg" className="portfolio-hover img-popup">
-                  <div className="hover-content">
-                    <i className="far fa-plus"></i>
-                  </div>
-                </a>
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <a href="/project-details">Landing Pages</a>
-                </h3>
-                <a href="/projects" className="cat-link">Creative Design</a>
-              </div>
-            </div>
-          </div>
+                  <div className="position-relative">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-100"
+                      style={{ height: "220px", objectFit: "cover" }}
+                    />
 
-          <div className="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-3 cat-4">
-            <div className="portfolio-item portfolio-style-one mb-55 wow fadeInUp" data-wow-delay=".3s">
-              <div className="img-holder">
-                <img src="/assets/images/portfolio/img-3.jpg" alt="Img" />
-                <a href="/assets/images/portfolio/img-3.jpg" className="portfolio-hover img-popup">
-                  <div className="hover-content">
-                    <i className="far fa-plus"></i>
-                  </div>
-                </a>
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <a href="/project-details">Illustration Design</a>
-                </h3>
-                <a href="/projects" className="cat-link">Creative Design</a>
-              </div>
-            </div>
-          </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-4 cat-3">
-            <div className="portfolio-item portfolio-style-one mb-55 wow fadeInUp" data-wow-delay=".4s">
-              <div className="img-holder">
-                <img src="/assets/images/portfolio/img-4.jpg" alt="Img" />
-                <a href="/assets/images/portfolio/img-4.jpg" className="portfolio-hover img-popup">
-                  <div className="hover-content">
-                    <i className="far fa-plus"></i>
                   </div>
-                </a>
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <a href="/project-details">Dashboard Design</a>
-                </h3>
-                <a href="/projects" className="cat-link">Creative Design</a>
-              </div>
-            </div>
-          </div>
+                  <div className="d-flex justify-content-between align-items-center">
 
-          <div className="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-5 cat-1">
-            <div className="portfolio-item portfolio-style-one mb-55 wow fadeInUp" data-wow-delay=".5s">
-              <div className="img-holder">
-                <img src="/assets/images/portfolio/img-5.jpg" alt="Img" />
-                <a href="/assets/images/portfolio/img-5.jpg" className="portfolio-hover img-popup">
-                  <div className="hover-content">
-                    <i className="far fa-plus"></i>
-                  </div>
-                </a>
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <a href="/project-details">Apps Development</a>
-                </h3>
-                <a href="/projects" className="cat-link">Creative Design</a>
-              </div>
-            </div>
-          </div>
+                    <div className="p-3">
+                      <h6 className="mb-1">{item.title}</h6>
+                      <small className="text-muted">{item.category}</small>
+                    </div>
+                    <div className="overlay d-flex align-items-center justify-content-center">
+                      <span className="text-dark fw-bold px-3 py-2" style={{textDecoration:"underline", fontSize:"12px"}}>
+                        View Project
+                      </span>
+                    </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-4 cat-2">
-            <div className="portfolio-item portfolio-style-one mb-55 wow fadeInUp" data-wow-delay=".6s">
-              <div className="img-holder">
-                <img src="/assets/images/portfolio/img-6.jpg" alt="Img" />
-                <a href="/assets/images/portfolio/img-6.jpg" className="portfolio-hover img-popup">
-                  <div className="hover-content">
-                    <i className="far fa-plus"></i>
                   </div>
-                </a>
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <a href="/project-details">Website Design</a>
-                </h3>
-                <a href="/projects" className="cat-link">Creative Design</a>
-              </div>
+                </div>
+              </a>
             </div>
-          </div>
+          ))}
         </div>
+
       </div>
+
+      {/* CSS */}
+      <style jsx>{`
+        .portfolio-card {
+          transition: 0.3s;
+        }
+
+        .portfolio-card:hover {
+          transform: translateY(-8px);
+        }
+
+        .overlay {
+          position: absolute;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.6);
+          opacity: 0;
+          transition: 0.3s;
+        }
+
+        .portfolio-card:hover .overlay {
+          opacity: 1;
+        }
+      `}</style>
     </section>
   );
 }
