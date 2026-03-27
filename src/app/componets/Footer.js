@@ -36,10 +36,10 @@ export default function Footer() {
                                 <ul className="widget-nav">
                                     <li><a href="/services">UX/UI Design</a></li>
                                     <li><a href="/OurService/website-design-and-development">Web Development</a></li>
-                                    <li><a href="/services">SEO Optimization</a></li>
-                                    <li><a href="/services">Product Design</a></li>
-                                    <li><a href="/services">Logo Design</a></li>
-                                    <li><a href="/services">Brand Design</a></li>
+                                    <li><a href="/OurService/digital-marketing/seo">SEO Optimization</a></li>
+                                    <li><a href="/OurService/add-on-services/cloud-services">Cloud Services</a></li>
+                                    <li><a href="/OurService/api/api-integration">API Integration</a></li>
+                                    <li><a href="/OurService/mobile-application">Mobile Application</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -68,13 +68,19 @@ export default function Footer() {
                                 <h4 className="widget-title">Follow</h4>
                                 <ul className="social-nav">
                                     <li>
-                                        <a href="#"><i className="fab fa-instagram"></i>Instagram</a>
+                                        <a href="https://www.instagram.com/laxzenix/" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-instagram"></i>Instagram
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#"><i className="fab fa-twitter"></i>Twitter</a>
+                                        <a href="https://twitter.com/laxzenix" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-twitter"></i>Twitter
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#"><i className="fab fa-facebook-f"></i>Facebook</a>
+                                        <a href="https://www.facebook.com/profile.php?id=61587364813397" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-facebook-f"></i>Facebook
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -112,10 +118,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-copyright">
-                    <div className="flex mb-5">
-                      
-
-                       
+                    <div className="flex mb-5">                       
                             <div className="footer-nav float-lg-right">
                                 <ul>
                                     <li><a href="/service-details">Privacy Policy</a></li>
