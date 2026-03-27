@@ -71,7 +71,7 @@ export default function ContactUs() {
                     <div className="about-us">
                         <h5 className="panel-widget-title">About Us</h5>
                         <p>
-                            We are a team of designers and developers that create high quality HTML5 templates and
+                            We are a Team of designers and developers that create high quality HTML5 templates and
                             web design resources for the creative community.
                         </p>
                     </div>
@@ -176,10 +176,10 @@ export default function ContactUs() {
                                             <h4>Email Address</h4>
                                             <p>
                                                 <a href="https://wpriverthemes.com/HTML/pixlab/mailto;hotlinein@gmail.com">
-                                                    laxzenix@gmail.com
+                                                 info@laxzenix.com
                                                 </a>
                                                 <a href="https://wpriverthemes.com/HTML/pixlab/mailto;hotlinein@gmail.com">
-                                                    supportlaxzenix@gmail.com
+                                                   support@laxzenix.com
                                                 </a>
                                             </p>
                                            
@@ -200,7 +200,7 @@ export default function ContactUs() {
                                                 <a href="tel:+917357444352">+91 7357444352</a>
                                             </p>
                                             <p>
-                                                <a href="tel:+917357444352">+0123456</a>
+                                                <a href="tel:+919352002046">+91 9352002046</a>
                                             </p>
                                         </div>
                                     </div>
