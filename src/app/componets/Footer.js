@@ -121,9 +121,9 @@ export default function Footer() {
                     <div className="flex mb-5">                       
                             <div className="footer-nav float-lg-right">
                                 <ul>
-                                    <li><a href="/service-details">Privacy Policy</a></li>
-                                    <li><a href="/faqs">Terms & Conditions</a></li>
-                                    <li><a href="/services">Refund Policy</a></li>
+                                    <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+                                    <li><a href="/Terms">Terms & Conditions</a></li>
+                                    <li><a href="/Refund">Refund Policy</a></li>
                                 </ul>
                             </div>
                        
