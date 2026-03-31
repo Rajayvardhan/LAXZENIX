@@ -104,25 +104,13 @@ export default function Header() {
                       </ul>
                     </li>
 
-                    {/* <li className="menu-item has-children">
-                      <Link href="#" className="nav-link">Pages</Link>
-                      <ul className="sub-menu">
-                        <li><Link href="/AboutUs">About Us</Link></li>
-                        <li><Link href="/Our_team">Our Team</Link></li>
-                        <li><Link href="/Our_Team_details">Team Details</Link></li>
-                      </ul>
-                    </li> */}
-
                     <li className="menu-item has-children">
-                      <a href="#" className="nav-link">Blog</a>
+                      <a href="#" className="nav-link">BLog</a>
                       <ul className="sub-menu">
                         <li><Link href="/Our_blog">Our Blog</Link></li>
                         <li><Link href="/Blog_details">Blog Details</Link></li>
                       </ul>
                     </li>
-                    {/* <li className="menu-item childrenCustom">
-                      <a href="/Digital_Agency" className="nav-link">Custom</a>
-                    </li> */}
 
                     <li className="menu-item">
                       <Link href="/contactUs" className="nav-link">Contact</Link>
@@ -130,7 +118,6 @@ export default function Header() {
                   </ul>
                 </nav>
               </div>
-
               <div className="header-right-nav">
                 <ul>
                   <li className="bar-item">
