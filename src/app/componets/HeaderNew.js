@@ -750,16 +750,6 @@ export default function Header() {
             <li><Link href="/contactUs">Contact</Link></li>
           </ul>
 
-          {/* Desktop CTA */}
-          <div className="lax-cta">
-            <Link href="/contactUs" className="lax-btn lax-btn-outline">
-              Get Quote
-            </Link>
-            <Link href="/contactUs" className="lax-btn lax-btn-solid">
-              Let's Talk →
-            </Link>
-          </div>
-
           {/* Hamburger */}
           <div
             className={`lax-hamburger ${mobileOpen ? "is-open" : ""}`}
