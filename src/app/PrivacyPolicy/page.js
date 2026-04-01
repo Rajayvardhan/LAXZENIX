@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
             <li>Business Information (Company Name, Address)</li>
             <li>Technical Data (IP Address, Browser Type, Device Info)</li>
             <li>Usage Data (Pages visited, interactions)</li>
-          </ul>
+          </ul>                               
         </section>
 
         <section className="mb-6">
