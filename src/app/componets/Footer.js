@@ -10,10 +10,9 @@ export default function Footer() {
                                 <img
                                     src="/assets/images/logo/lax-logo.png"
                                     alt="Brand Logo"
-                                />
+                                />                                                   
                             </div>
                         </div>
-
                         <div className="col-md-6">
                             <div className="text-wrapper mb-40 wow fadeInRight">
                                 <h3>
@@ -24,7 +23,6 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-
                 <div className="footer-widget pt-70 pb-40">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-12">
@@ -126,7 +124,6 @@ export default function Footer() {
                                     <li><a href="/Refund">Refund Policy</a></li>
                                 </ul>
                             </div>
-                       
                     </div>
                 </div>
             </div>
