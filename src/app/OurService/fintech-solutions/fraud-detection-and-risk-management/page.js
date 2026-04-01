@@ -121,11 +121,11 @@ export default function page() {
         <>
             <PageBanner
                 title="Fraud Detection & Risk Management Solutions"
-                image="/assets/images/services/fintech/fraud-detection-and-risk-management.png"
+                image="/assets/images/services/Finunique/fraud-detection-and-risk-management.png"
                 breadcrumbs={[
                     { label: "Home", link: "/" },
                     { label: "Services", link: "/OurServices" },
-                    { label: "Fraud Detection & Risk Management", link: "/OurServices/fintech-solutions/fraud-detection-and-risk-management" },
+                    { label: "Fraud Detection & Risk Management", link: "/OurServices/Finunique-solutions/fraud-detection-and-risk-management" },
                 ]}
             />
             {/* About */}

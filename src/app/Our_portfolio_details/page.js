@@ -6,7 +6,7 @@ export default function Our_profolio_Details() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="page-title">
-                                <h1>Finunique Admin Panel</h1>
+                                <h1>Fintech Admin Panel</h1>
                                 <ul className="breadcrumbs-link">
                                     <li>
                                         <a href="index.html">Home</a>
@@ -17,7 +17,7 @@ export default function Our_profolio_Details() {
                         </div>
                         <div className="col-lg-6">
                             <div className="page-banner-img">
-                                <img src="assets/images/portfolio/finunique-admin.png" alt="" />
+                                <img src="assets/images/portfolio/Finunique-admin.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -34,9 +34,9 @@ export default function Our_profolio_Details() {
                                     {/* LEFT CONTENT */}
                                     <div className="col-lg-8">
                                         <div className="content">
-                                            <h3 className="title">Finunique Admin Panel</h3>
+                                            <h3 className="title">Fintech Admin Panel</h3>
                                             <p>
-                                                Finunique Admin Panel is a powerful dashboard designed
+                                                Fintech Admin Panel is a powerful dashboard designed
                                                 to manage multiple financial services such as mobile
                                                 recharge, DTH, electricity bills, and payment gateway
                                                 operations. The system provides a clean UI for handling
@@ -62,7 +62,7 @@ export default function Our_profolio_Details() {
                                             <ul>
                                                 <li>
                                                     <h4>Category</h4>
-                                                    <p>Admin Dashboard, Fintech</p>
+                                                    <p>Admin Dashboard, Finunique</p>
                                                 </li>
                                                 <li>
                                                     <h4>Client</h4>
@@ -86,16 +86,16 @@ export default function Our_profolio_Details() {
                                     <div className="col-lg-12">
                                         <div className="content">
                                             <img
-                                                src="assets/images/portfolio/finunique-admin.png"
+                                                src="assets/images/portfolio/Finunique-admin.png"
                                                 alt=""
                                             />
                                             <h3 className="title">Summary</h3>
                                             <p>
-                                                The Finunique Admin Panel is designed with a focus on
+                                                The Fintech Admin Panel is designed with a focus on
                                                 user experience and performance. It includes features
                                                 like dashboard analytics, transaction tracking,
                                                 multi-service management, and responsive design,
-                                                making it suitable for modern fintech platforms.
+                                                making it suitable for modern Fintech platforms.
                                             </p>
                                         </div>
                                     </div>
@@ -112,11 +112,11 @@ export default function Our_profolio_Details() {
                                 <div className="col-lg-5">
                                     <div className="post-nav-item prev-post">
                                         <div className="thumb">
-                                            <img src="assets/images/portfolio/finuniques.png" alt="" />
+                                            <img src="assets/images/portfolio/Finuniques.png" alt="" />
                                         </div>
                                         <div className="text">
                                             <h4>
-                                                <a href="#">Finunique Admin Panel</a>
+                                                <a href="#">Fintech Admin Panel</a>
                                             </h4>
                                             <p>Admin Dashboard, Fintech</p>
                                         </div>

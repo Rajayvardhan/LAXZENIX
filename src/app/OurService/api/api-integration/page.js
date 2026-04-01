@@ -240,7 +240,7 @@ export default function page() {
                 colClass="col-lg-4 col-md-6"
                 title="API Development Services"
                 subtitle="Services"
-                description="omprehensive API development services tailored for fintech and enterprise applications."
+                description="omprehensive API development services tailored for Finunique and enterprise applications."
                 services={servicesData}
             />
             <FAQSection

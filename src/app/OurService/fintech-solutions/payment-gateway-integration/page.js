@@ -127,11 +127,11 @@ export default function page() {
         <>
             <PageBanner
                 title="Seamless & Secure Payment Gateway Integration."
-                image="/assets/images/services/fintech/payment-gateway-integration.png"
+                image="/assets/images/services/Finunique/payment-gateway-integration.png"
                 breadcrumbs={[
                     { label: "Home", link: "/" },
                     { label: "Services", link: "/OurServices" },
-                    { label: "Payment Gateway Integration", link: "/OurServices/fintech-solutions/payment-gateway-integration" },
+                    { label: "Payment Gateway Integration", link: "/OurServices/Finunique-solutions/payment-gateway-integration" },
                 ]}
             />
             {/* About */}

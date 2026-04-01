@@ -3,19 +3,19 @@ import React, { useState } from "react";
 
 const projectsData = [
   {
-    title: "Finunique",
+    title: "Fintech Platform",
     category: "Finance",
-    image: "/assets/images/portfolio/finuniques.png",
-    link: "https://www.finuniques.in/",
+    image: "/assets/images/portfolio/Finuniques.png",
+    link: "https://www.Finuniques.in/",
   },
   {
-    title: "Finunique Admin Panel",
+    title: "Fintech Admin Panel",
     category: "Dashboard",
-    image: "/assets/images/portfolio/finunique-admin.png",
-    link: "https://utility.finuniques.in/register",
+    image: "/assets/images/portfolio/Finunique-admin.png",
+    link: "https://utility.Finuniques.in/register",
   },
   {
-    title: "Digihub Tech",
+    title: "Multi-Products E-commerce",
     category: "Website",
     image: "/assets/images/portfolio/digihub.png",
     link: "https://digihubtech.in/",
@@ -27,13 +27,13 @@ const projectsData = [
     link: "https://www.sevenunique.com/",
   },
   {
-    title: "Ekero Partners",
+    title: "Influencer Freelancing Platform",
     category: "Finance",
     image: "/assets/images/portfolio/ekero.png",
     link: "https://ekeropartnersempowerwealth.com/en",
   },
   {
-    title: "Finunique Blogging",
+    title: "Blogging Website",
     category: "Website",
     image: "/assets/images/portfolio/Blogging.png",
     link: "https://www.7uniqueverfiy.com/",

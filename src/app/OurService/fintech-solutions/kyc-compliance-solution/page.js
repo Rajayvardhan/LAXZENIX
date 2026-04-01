@@ -129,11 +129,11 @@ export default function page() {
         <>
             <PageBanner
                 title="KYC & Compliance Solutions"
-                image="/assets/images/services/fintech/kyc-compliance-solution.png"
+                image="/assets/images/services/Finunique/kyc-compliance-solution.png"
                 breadcrumbs={[
                     { label: "Home", link: "/" },
                     { label: "Services", link: "/OurServices" },
-                    { label: "KYC & Compliance", link: "/OurServices/fintech-solutions/kyc-compliance-solution" },
+                    { label: "KYC & Compliance", link: "/OurServices/Finunique-solutions/kyc-compliance-solution" },
                 ]}
             />
             {/* About */}

@@ -43,15 +43,15 @@ const servicesData = [
     items: [],
   },
   {
-    title: "Fintech Solutions",
-    link: "/OurService/fintech-solutions",
+    title: "Finunique Solutions",
+    link: "/OurService/Finunique-solutions",
     icon: "💳",
     items: [
-      { name: "Digital Banking Solutions", link: "/OurService/fintech-solutions/digital-banking-solution" },
-      { name: "Payment Gateway Integration", link: "/OurService/fintech-solutions/payment-gateway-integration" },
-      { name: "Wallet & UPI Integration", link: "/OurService/fintech-solutions/wallet-and-upi-integration" },
-      { name: "Fraud Detection & Risk Management", link: "/OurService/fintech-solutions/fraud-detection-and-risk-management" },
-      { name: "KYC & Compliance Solutions", link: "/OurService/fintech-solutions/kyc-compliance-solution" },
+      { name: "Digital Banking Solutions", link: "/OurService/Finunique-solutions/digital-banking-solution" },
+      { name: "Payment Gateway Integration", link: "/OurService/Finunique-solutions/payment-gateway-integration" },
+      { name: "Wallet & UPI Integration", link: "/OurService/Finunique-solutions/wallet-and-upi-integration" },
+      { name: "Fraud Detection & Risk Management", link: "/OurService/Finunique-solutions/fraud-detection-and-risk-management" },
+      { name: "KYC & Compliance Solutions", link: "/OurService/Finunique-solutions/kyc-compliance-solution" },
     ],
   },
   {

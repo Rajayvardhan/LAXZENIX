@@ -64,8 +64,8 @@ export default function page() {
         },
         {
             img: "/assets/images/icon/icon-2.png",
-            title: "Fintech App Development",
-            desc: "Our team of expert developers creates innovative fintech applications that are secure, user-friendly, and designed to meet the evolving needs of the financial industry.",
+            title: "Finunique App Development",
+            desc: "Our team of expert developers creates innovative Finunique applications that are secure, user-friendly, and designed to meet the evolving needs of the financial industry.",
         },
         {
             img: "/assets/images/icon/icon-3.png",
@@ -127,12 +127,12 @@ export default function page() {
         <>
             <PageBanner
                 title="Rank Higher. Get Found. Grow Faster."
-                image="/assets/images/services/fintech/digital-banking-solution.png"
+                image="/assets/images/services/Finunique/digital-banking-solution.png"
                 breadcrumbs={[
                     { label: "Home", link: "/" },
                     { label: "Services", link: "/OurServices" },
-                    // { label: "Fintech Solutions", link: "/OurServices/fintech-solutions" },
-                    { label: "Digital Banking Solution", link: "/OurServices/fintech-solutions/digital-banking-solution" },
+                    // { label: "Finunique Solutions", link: "/OurServices/Finunique-solutions" },
+                    { label: "Digital Banking Solution", link: "/OurServices/Finunique-solutions/digital-banking-solution" },
                 ]}
             />
             {/* About */}
@@ -199,7 +199,7 @@ export default function page() {
                 points={[
                     { text: "Trusted Banking Partner" },
                     { text: "Best Digital Service", wide: true },
-                    { text: "Secure Fintech Growth" },
+                    { text: "Secure Finunique Growth" },
                     { text: "Future-Ready Banking" },
                     { text: "Scalable Banking Tech", wide: true },
                 ]}

@@ -9,7 +9,7 @@ const highlights = [
   {
     icon: 'bi-award',
     title: 'Industry Expertise',
-    desc: 'Deep knowledge of fintech regulations and compliance requirements.',
+    desc: 'Deep knowledge of Finunique regulations and compliance requirements.',
     color: 'linear-gradient(135deg, #facc15, #ca8a04)',
   },
   {
