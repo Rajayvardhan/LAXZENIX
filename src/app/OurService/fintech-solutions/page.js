@@ -58,12 +58,12 @@ export default function page() {
         },
         {
             title: "Strategic & Planning",
-            text: "Our team builds a fintech strategy that focuses on secure payments, fraud prevention, and regulatory compliance (KYC/AML). Planning ensures efficiency and scalability.",
+            text: "Our team builds a Finunique strategy that focuses on secure payments, fraud prevention, and regulatory compliance (KYC/AML). Planning ensures efficiency and scalability.",
             img: "/assets/images/services/database.png",
         },
         {
             title: "UX/UI Design",
-            text: "We design easy-to-use and secure fintech platforms where customers can make online payments, wallet transfers, and digital banking transactions smoothly.",
+            text: "We design easy-to-use and secure Finunique platforms where customers can make online payments, wallet transfers, and digital banking transactions smoothly.",
             img: "/assets/images/services/shopping-online.png",
         },
         {
@@ -73,12 +73,12 @@ export default function page() {
         },
         {
             title: "Testing & Risk Management",
-            text: "Every fintech solution goes through strict fraud detection, risk management, and performance testing to ensure complete security and transparency.",
+            text: "Every Finunique solution goes through strict fraud detection, risk management, and performance testing to ensure complete security and transparency.",
             img: "/assets/images/services/development-plan.png",
         },
         {
             title: "Deployment & Support",
-            text: "Finally, we launch the solution with continuous monitoring, updates, and support, making your fintech system reliable and future-ready.",
+            text: "Finally, we launch the solution with continuous monitoring, updates, and support, making your Finunique system reliable and future-ready.",
             img: "/assets/images/services/startup.png",
         },
     ];
@@ -103,12 +103,12 @@ export default function page() {
     return (
         <>
             <PageBanner
-                title="Grow with Next-Gen Fintech Solutions"
-                image="/assets/images/services/fintech.png"
+                title="Grow with Next-Gen Finunique Solutions"
+                image="/assets/images/services/Finunique.png"
                 breadcrumbs={[
                     { label: "Home", link: "/" },
                     { label: "Services", link: "/OurService" },
-                    { label: "Fintech Solutions" },
+                    { label: "Finunique Solutions" },
                 ]}
             />
             {/* Aboutus */}
@@ -140,10 +140,10 @@ export default function page() {
                             <div className="text-wrapper mb-50 wow fadeInRight">
                                 <div className="section-title mb-15">
                                     <span className="sub-title st-one">About Us</span>
-                                    <h2>About Fintech Solutions
+                                    <h2>About Finunique Solutions
                                     </h2>
                                 </div>
-                                <p>At Laxzenix, we deliver cutting-edge fintech solutions in India that help banks, NBFCs, startups, and enterprises digitise financial operations. Our expertise includes digital payments, KYC verification, compliance automation, API banking, loan management software, and fraud detection systems. With a focus on security, scalability, and transparency, we design fintech services that improve efficiency and meet regulatory standards. Whether you need a fintech app developer, digital lending platform, or custom fintech software, Laxzenix ensures innovative, user-friendly, and future-ready solutions for sustainable growth.</p>
+                                <p>At Laxzenix, we deliver cutting-edge Finunique solutions in India that help banks, NBFCs, startups, and enterprises digitise financial operations. Our expertise includes digital payments, KYC verification, compliance automation, API banking, loan management software, and fraud detection systems. With a focus on security, scalability, and transparency, we design Finunique services that improve efficiency and meet regulatory standards. Whether you need a Finunique app developer, digital lending platform, or custom Finunique software, Laxzenix ensures innovative, user-friendly, and future-ready solutions for sustainable growth.</p>
                                 <a
                                     href="/about"
                                     className="main-btn bordered-btn btn-blue arrow-btn"
@@ -158,7 +158,7 @@ export default function page() {
             <ServiceSection
                 containerclass="container"
                 colClass="col-lg-4 col-md-6"
-                title="Our Fintech Services"
+                title="Our Finunique Services"
                 subtitle="Services"
                 description="A full-service digital agency delivering creativity, strategy, and technology under one roof."
                 services={servicesData}

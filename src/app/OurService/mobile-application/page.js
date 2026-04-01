@@ -191,7 +191,7 @@ export default function page() {
             <ServiceSection
                 containerclass="container"
                 colClass="col-lg-4 col-md-6"
-                title="Our Fintech Services"
+                title="Our Finunique Services"
                 subtitle="Services"
                 description="A full-service digital agency delivering creativity, strategy, and technology under one roof."
                 services={servicesData}

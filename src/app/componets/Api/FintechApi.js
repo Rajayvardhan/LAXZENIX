@@ -27,10 +27,10 @@ const apis = [
   },
 ];
 
-export default function FintechApi() {
+export default function FinuniqueApi() {
   return (
     <section
-      id="fintech-apis"
+      id="Finunique-apis"
       className="py-5"
       style={{ background: 'white' }}
     >
@@ -39,7 +39,7 @@ export default function FintechApi() {
         {/* Heading */}
         <div className="text-start mb-5">
           <h2 className="fw-bold fs-1" style={{ color: '#0f2f38' }}>
-            Fintech <span style={{ color: '#5956e9' }}>API Solutions</span>
+            Finunique <span style={{ color: '#5956e9' }}>API Solutions</span>
           </h2>
           <p className="fs-5 text-secondary mt-3" style={{ maxWidth: '700px' }}>
             Specialized API solutions for the financial technology sector with compliance and security focus.
@@ -50,7 +50,7 @@ export default function FintechApi() {
         <div className="row g-4">
           {apis.map((api) => (
             <div key={api.title} className="col-12 col-md-6 col-lg-3">
-              <div className="bg-white rounded-4 p-4 shadow fintech-card text-center h-100 border border-light">
+              <div className="bg-white rounded-4 p-4 shadow Finunique-card text-center h-100 border border-light">
                 <div
                   className="d-flex align-items-center justify-content-center rounded-3 mx-auto mb-4"
                   style={{ width: 64, height: 64, background: api.color }}
@@ -67,10 +67,10 @@ export default function FintechApi() {
       </div>
 
       <style>{`
-        .fintech-card {
+        .Finunique-card {
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        .fintech-card:hover {
+        .Finunique-card:hover {
           transform: scale(1.05);
           box-shadow: 0 20px 40px rgba(0,0,0,0.12) !important;
         }

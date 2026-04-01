@@ -119,11 +119,11 @@ export default function page() {
         <>
             <PageBanner
                 title="Seamless Wallet and UPI Integration Services"
-                image="/assets/images/services/fintech/wallet-and-upi-integration.png"
+                image="/assets/images/services/Finunique/wallet-and-upi-integration.png"
                 breadcrumbs={[
                     { label: "Home", link: "/" },
                     { label: "Services", link: "/OurServices" },
-                    { label: "Wallet and UPI Integration", link: "/OurServices/fintech-solutions/wallet-and-upi-integration" },
+                    { label: "Wallet and UPI Integration", link: "/OurServices/Finunique-solutions/wallet-and-upi-integration" },
                 ]}
             />
             {/* About */}

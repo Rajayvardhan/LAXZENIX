@@ -5,7 +5,7 @@ import WhyChooseAPI from '../../../componets/Api/WhyChooseAPI'
 import WhatWeOffer from '../../../componets/Api/WhatWeOffer';
 import ApiTypes from '../../../componets/Api/ApiTypes';
 import ServiceSection from "../../../componets/ServiceSection";
-import FintechApi from '../../../componets/Api/FintechApi';
+import FinuniqueApi from '../../../componets/Api/FinuniqueApi';
 import Technologies from '../../../componets/Api/Technologies';
 import DevelopmentProcess from '../../../componets/Api/DevelopmentProcess';
 import FAQSection from "../../../componets/Faq";
@@ -73,7 +73,7 @@ export default function page() {
         },
         {
             title: 'Expert Team',
-            desc: 'Experienced developers with fintech expertise.',
+            desc: 'Experienced developers with Finunique expertise.',
             icon: 'bi-people',
             gradient: 'linear-gradient(135deg, #a855f7, #9333ea)',
             bg: '#faf5ff',
@@ -215,14 +215,14 @@ export default function page() {
             />
        <WhatWeOffer items={items} />
             <ApiTypes />
-            <FintechApi />
+            <FinuniqueApi />
             {/* Services Card */}
             <ServiceSection
                 containerclass="container"
                 colClass="col-lg-4 col-md-6"
                 title="API Development Services"
                 subtitle="Services"
-                description="omprehensive API development services tailored for fintech and enterprise applications."
+                description="omprehensive API development services tailored for Finunique and enterprise applications."
                 services={servicesData}
             />
             <Technologies />
